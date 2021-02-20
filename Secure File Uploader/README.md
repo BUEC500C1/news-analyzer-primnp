@@ -39,6 +39,7 @@ HTTP Method: POST
     "NLP": []
   },
   "File_Info": {
+    "File_name": "file_name"
     "User_ID": "user_ID",
     "Created_time":  "created_time",
     "Permissions": ["user_ID", "user_ID"],
