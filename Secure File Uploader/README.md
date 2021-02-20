@@ -19,8 +19,11 @@ news-analyzer-primnp created by GitHub Classroom
 ##JSON requests and responses
 1. Ingesting data from uploaded files (Create)
 
-URI: /file
-HTTP Method: POST
+URI  | HTTP Method
+------------- | -------------
+/file  | POST
+
+###Successful upload response
 ```JSON
 {
   "File_URL": "file_url",
@@ -40,6 +43,7 @@ HTTP Method: POST
   },
   "File_Info": {
     "File_name": "file_name",
+    "File_ID": "File_ID",
     "User_ID": "user_ID",
     "Created_time":  "created_time",
     "Permissions": ["user_ID", "user_ID"],
@@ -51,10 +55,23 @@ HTTP Method: POST
 }
 ```
 
+###Unsuccessful upload response
+* Follows HTTP Status code; below is an example of client error - request timeout
+```JSON
+{
+  "err": {
+    "code": 408,
+    "message": "Request Timeout"
+  },
+  "status": "fail"
+}
+```
+
 2. Modifying data from uploaded file (Update)
 
-URI: /file/File_Info
-HTTP Method: PUT
+URI  | HTTP Method
+------------- | -------------
+/file/File_Info | PUT
 ```JSON
 {
   "User_ID": "user_ID",
@@ -75,11 +92,12 @@ HTTP Method: PUT
 }
 ```
 ###Unsuccessful modify response
+* Follows HTTP Status code; below is an example of client error - forbidden
 ```JSON
 {
   "err": {
-    "code": 101,
-    "message": "You don't have permission for this"
+    "code": 403,
+    "message": "Forbidden"
   },
   "status": "fail"
 }
@@ -87,8 +105,9 @@ HTTP Method: PUT
 
 3. Create user
 
-URI:  /user
-HTTP Method: POST
+URI  | HTTP Method
+------------- | -------------
+/user | POST
 ```JSON
 {
   "User_ID": "user_ID",

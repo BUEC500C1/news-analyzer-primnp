@@ -13,6 +13,65 @@ news-analyzer-primnp created by GitHub Classroom
 
 > Procedure-base module
 
-##JSON Request
+##Functions - Actions that need to be completed
+* file = ingestFile()
+* NameFile(file, name)
+* GetFileData(file)
+* UpdateFile(file)
+* KeywordsSearch = searchOnKeywords()
+* SentimentSearch = searchOnSentiment()
+* GetSearchData(KeywordsSearch) or GetSearchData(SentimentSearch)
+* FileSource = findFileSource()
+* GetFileSource(FileSource)
+* CommonKeywords = searchCommonKeywords()
+* ContentSentiment = findContentSentiment()
+* KeywordsSentiment = linkKeywordsandSentiment()
+* GetKeywordsSentimentData(KeywordSentiment)
+* SearchResultandUploadedContent = linkSearchResultandUploadedContent()
+* GetKeywordsLink(SearchResultandUploadedContent)
+* RemoveCommonKeywords(CommonKeywords, file)
+* RemoveContentSentiment(ContentSentiment, file)
 
-##Response Parameters
+
+##Example data
+* File
+  * File URL
+  * MetaData
+    * Author
+    * Timestamps
+    * File source
+    * Original Tags
+    * File type
+  * Text_Fields
+    * Text ID
+    * Text
+    * Sentiment
+    * NLP
+    * Keywords
+  * File_content
+    * File Name
+    * User ID
+    * Created Time
+    * Permissions
+    * Time modified
+    * File Tags
+    * File Type
+    * Notes
+
+
+##Operations
+* Create
+  * ingestFile(File)
+* Delete
+  * Delete(File.Text_Fields, Keywords)
+  * Delete(File.Text_Fields, Sentiment)
+* Read
+  * File.MetaData, File source
+  * File.Text_Fields, Sentiment
+  * File.Text_Fields, Text
+  * File.Text_Fields, Keywords
+* Update
+  * File.Text_Fields, Keywords
+  * File.Text_Fields, Sentiment
+  * File.File_content, Similar File URL
+  * File.File_content, File Name
