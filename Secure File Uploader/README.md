@@ -1,7 +1,7 @@
 # news-analyzer-primnp
 news-analyzer-primnp created by GitHub Classroom
 
-##User Stories - Secure File Uploader/Ingester
+## User Stories - Secure File Uploader/Ingester
 *  As a user, I want to upload local file to database
 *  As a user, I want to upload various file types with different formatting
 *  As a user, I want to cancel my uploaded file while  it is in progress
@@ -16,14 +16,14 @@ news-analyzer-primnp created by GitHub Classroom
 >  Entity-based module
 
 
-##JSON requests and responses
+## JSON requests and responses
 1. Ingesting data from uploaded files (Create)
 
 URI  | HTTP Method
 ------------- | -------------
 /file  | POST
 
-###Successful upload response
+### Successful upload response
 ```JSON
 {
   "File_URL": "file_url",
@@ -55,7 +55,7 @@ URI  | HTTP Method
 }
 ```
 
-###Unsuccessful upload response
+### Unsuccessful upload response
 * Follows HTTP Status code; below is an example of client error - request timeout
 ```JSON
 {
@@ -84,14 +84,14 @@ URI  | HTTP Method
 }
 ```
 
-###Successful modify response
+### Successful modify response
 ```JSON
 {
   "File_URL": "file_url",
   ...
 }
 ```
-###Unsuccessful modify response
+###. Unsuccessful modify response
 * Follows HTTP Status code; below is an example of client error - forbidden
 ```JSON
 {
