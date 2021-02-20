@@ -2,7 +2,7 @@
 news-analyzer-primnp created by GitHub Classroom
 
 
-##User Stories - Text NLP Analysis
+## User Stories - Text NLP Analysis
 * As a user, I want to search using keywords and boolean operators
 * As a user, I want to identify repeated phrase/keywords throughout documents
 * As a user, I want to create links with other documents via common keywords
@@ -15,7 +15,7 @@ news-analyzer-primnp created by GitHub Classroom
 
 > Procedure-based module
 
-##Functions - Actions that need to be completed
+## Functions - Actions that need to be completed
 * KeywordsSearch = searchOnKeywords()
 * BooleanSearch = searchBoolean()
 * RepeatedWords = searchRepeatedWords()
@@ -35,7 +35,7 @@ news-analyzer-primnp created by GitHub Classroom
 * RemoveBias = RemoveBiasData(BiasInfo, text)
 
 
-##Example data
+## Example data
 * File
   * File URL
   * MetaData
@@ -63,7 +63,7 @@ news-analyzer-primnp created by GitHub Classroom
     * Notes
 
 
-##Operations
+## Operations
 * Create
   * Create bias, determine link between keywords, create translated text e.g.:
     * findBiasOnKeywords()
