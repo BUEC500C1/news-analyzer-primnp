@@ -1,6 +1,6 @@
 import json
 
-def uploader(x):
+def uploader():
    #input file
    #pseudo implementation
    # file.time_stamp = event(upload, timestamp)    
@@ -13,5 +13,6 @@ def uploader(x):
    # file.text = "a very long text"
    # file.fileURL = "https://example.test/file/011/20"
    # ...
-    return "test create file"
+   return "test create file"
+   
 
