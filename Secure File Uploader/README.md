@@ -55,7 +55,7 @@ URI  | HTTP Method
 }
 ```
 
-### Unsuccessful upload response
+#### Unsuccessful upload response
 * Follows HTTP Status code; below is an example of client error - request timeout
 ```JSON
 {
