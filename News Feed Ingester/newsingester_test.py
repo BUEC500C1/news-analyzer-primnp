@@ -14,7 +14,7 @@ def test_read():
     assert GetFileSource() == "file source"
     assert GetSearchData() == "files with the stated keywords/sentiment"
 
-def test_upload():
+def test_update():
     assert UpdateFile() == "updated file"
 
 def test_delete():
