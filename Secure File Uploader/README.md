@@ -23,7 +23,7 @@ URI  | HTTP Method
 ------------- | -------------
 /file  | POST
 
-### Successful upload response
+#### Successful upload response
 ```JSON
 {
   "File_URL": "file_url",
@@ -84,14 +84,14 @@ URI  | HTTP Method
 }
 ```
 
-### Successful modify response
+#### Successful modify response
 ```JSON
 {
   "File_URL": "file_url",
   ...
 }
 ```
-###. Unsuccessful modify response
+#### Unsuccessful modify response
 * Follows HTTP Status code; below is an example of client error - forbidden
 ```JSON
 {
