@@ -15,6 +15,90 @@ news-analyzer-primnp created by GitHub Classroom
 
 >  Entity-based module
 
-##JSON Requests
 
-##Response Parameters
+##JSON requests and responses
+1. Ingesting data from uploaded files (Create)
+
+URI: /file
+HTTP Method: POST
+```JSON
+{
+  "File_URL": "file_url",
+  "ID": "/file_url/User_ID/File_ID",
+  "File_Metadata": {
+    "Author": "author name",
+    "Timestamps": "time_stamps",
+    "File_source": "file_source",
+    "Original_tags": "original_tags",
+    "File_type": "file_type"
+  },
+  "Text_Fields": {
+    "Text_ID": "text_ID",
+    "Text": "text_attributes",
+    "Sentiment": "file_sentiments",
+    "NLP": []
+  },
+  "File_Info": {
+    "User_ID": "user_ID",
+    "Created_time":  "created_time",
+    "Permissions": ["user_ID", "user_ID"],
+    "Time_modified": "time_mod",
+    "File_tags": "file_tags",
+    "File_type": "file_type",
+    "Notes":  "notes"
+  }
+}
+```
+
+2. Modifying data from uploaded file (Update)
+
+URI: /file/File_Info
+HTTP Method: PUT
+```JSON
+{
+  "User_ID": "user_ID",
+  "Created_time":  "created_time",
+  "Permissions": ["user_ID", "user_ID"],
+  "Time_modified": "time_mod",
+  "File_tags": "file_tags",
+  "File_type": "file_type",
+  "Notes":  "notes"
+}
+```
+
+###Successful modify response
+```JSON
+{
+  "File_URL": "file_url",
+  ...
+}
+```
+###Unsuccessful modify response
+```JSON
+{
+  "err": {
+    "code": 101,
+    "message": "You don't have permission for this"
+  },
+  "status": "fail"
+}
+```
+
+3. Create user
+
+URI:  /user
+HTTP Method: POST
+```JSON
+{
+  "User_ID": "user_ID",
+  "name":  "my_username",
+  "First_name": "My",
+  "Last_name": "Username",
+  "Display_name": "My Username",
+  "Email": "myusername@example.test",
+  "Password":  {
+    "value": "password"
+  },
+  "Active":  true
+}
+```
