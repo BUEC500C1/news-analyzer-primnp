@@ -6,7 +6,7 @@ Homework 2 Phase 1 are in different modules folder. Each folder consists of read
 Readme consists of:
   * if entity-base API:
     * User Stories
-    * JSON requests and response
+    * JSON requests and responses
   * if procedure-base API
     * User Stories
     * List of Functions
