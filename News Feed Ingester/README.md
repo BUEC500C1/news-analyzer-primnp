@@ -1,7 +1,7 @@
 # news-analyzer-primnp
 news-analyzer-primnp created by GitHub Classroom
 
-##User Stories - News Feed Ingester
+## User Stories - News Feed Ingester
 * As a user, I want to upload/organize news feed to database
 * As a user, I want to discover content from web to enhance story
 * As a user, I want to know the source of the articles
@@ -13,7 +13,7 @@ news-analyzer-primnp created by GitHub Classroom
 
 > Procedure-base module
 
-##Functions - Actions that need to be completed
+## Functions - Actions that need to be completed
 * file = ingestFile()
 * NameFile(file, name)
 * GetFileData(file)
@@ -33,7 +33,7 @@ news-analyzer-primnp created by GitHub Classroom
 * RemoveContentSentiment(ContentSentiment, file)
 
 
-##Example data
+## Example data
 * File
   * File URL
   * MetaData
@@ -59,7 +59,7 @@ news-analyzer-primnp created by GitHub Classroom
     * Notes
 
 
-##Operations
+## Operations
 * Create
   * ingestFile(File)
 * Delete
