@@ -1,4 +1,18 @@
+from flask import Flask, request
+from flask_restful import Resource, Api
+
+app = Flask(__name__)
+api = Api(app)
+
 #create
+class ingestFile(Resource):
+    def get(self):
+        return {'about': 'file ingested'}
+
+    def post(self):
+        json_file = request.get_json()
+        return {'file ingested': json_file}, 201
+
 def searchOnKeywords():
     #input keywords
     #search through database, using File.Text_Fields, Text, find files which has the Keywords
@@ -65,6 +79,10 @@ def findBiasOnKeywords():
     return "bias"
 
 #read
+class ReadFile(Resource):
+    def get(self, file_id):
+        return {'about': file_id}, 201
+
 def searchBoolean():
     #define boolean parameters and their functions accordingly
     #return correct boolean operations functions for search
@@ -82,6 +100,15 @@ def ClassifyDatas():
     return "data format: xx"
 
 #updated
+class UpdateFile(Resource):
+    def get(self, file_id):
+        return {'updated': file_id}
+
+    #just place here to indicate there should be a PUT http request, PUT won't work as of now
+    def put(self):
+        edit_json = request.get_json()
+        return {'edited': edit_json}, 201
+
 def UpdateBias():
     #if input is file
         #file.file_content.time_modified = timestamp when modifying event
@@ -96,6 +123,8 @@ def UpdateLanguage():
     return "language updated"
 
 #delete
+# class DeleteFile(Resource):
+#     def delete(self)
 def RemoveBiasData():
     #if input (BiasInfo, keyword, file)
         #file.file_content.Time_modified = timestamp when deleted event
@@ -104,3 +133,14 @@ def RemoveBiasData():
         #file.file_content.Time_modified = timestamp when deleted event
         #delete file.text_fields.bias if file.text_fields.bias == BiasInfo
     return "Bias removed"
+
+
+@app.route("/")
+def index():
+    return 'Text NLP Analysis API with RESTFUL'
+
+api.add_resource(ingestFile, '/file')
+api.add_resource(UpdateFile, '/file/file_content/<int:file_id>')
+
+if __name__ == '__main__':
+    app.run(debug=True)

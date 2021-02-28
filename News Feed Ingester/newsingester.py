@@ -1,8 +1,20 @@
 from flask import Flask, request
 from flask_restful import Resource, Api
 
+app = Flask(__name__)
+api = Api(app)
+
+#Note: testing RESTFUL functionalities, not real implementations, will put implementations for HW2 Phase 3
+
 #create
-def ingestFile():
+class ingestFile(Resource):
+    def get(self):
+        return {'about': 'test file'}
+
+    def post(self):
+        json_file = request.get_json()
+        return {'file sent': json_file}, 201
+#def ingestFile():
     #input file
     #pseudo implementation
     # file.time_stamp = event(upload, timestamp)
@@ -15,7 +27,7 @@ def ingestFile():
     # file.text = "a very long text"
     # file.fileURL = "https://example.test/file/011/20"
     # ...
-    return "test create file"
+    #return "test create file"
 
 def searchOnKeywords():
     #input keywords
@@ -78,7 +90,15 @@ def GetSearchData():
     return "files with the stated keywords/sentiment"
 
 #Update
-def UpdateFile():
+class UpdateFile(Resource):
+    def get(self, file_id):
+        return {'updated': file_id}
+
+    #just place here to indicate there should be a PUT http request, PUT won't work as of now
+    def put(self):
+        json_file = request.get_json()
+        return {'updated': json_file}, 201
+#def UpdateFile():
     #input file
     #file.file_content.time_modified = timestamp when modifying event
     #possible modify data scenarios
@@ -86,7 +106,7 @@ def UpdateFile():
     #file.file_content.permissions - to change who has access to the files
     #file.file_content.file_tags - to change file tags
     #file.file_content.notes - to change file notes
-    return "updated file"
+    #return "updated file"
 
 #Delete
 def RemoveCommonKeywords():
@@ -100,3 +120,15 @@ def RemoveContentSentiment():
     ##file.file_content.Time_modified = timestamp when delete event
     #delete file.text_fields.sentiment if file.text_fields.sentiment == sentiment
     return "sentiment deleted"
+
+
+@app.route("/")
+def index():
+    return 'News Feed Ingester API with RESTFUL'
+
+api.add_resource(ingestFile, '/file')
+api.add_resource(UpdateFile, '/file/file_content/<int:file_id>')
+
+
+if __name__ == '__main__':
+    app.run(debug=True)

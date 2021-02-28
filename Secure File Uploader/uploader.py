@@ -5,7 +5,8 @@ import json
 app = Flask(__name__)
 api = Api(app)
 
-#just testing functionalities, not real implementations
+#Note: testing RESTFUL functionalities, not real implementations, will put implementations for HW2 Phase 3
+
 
 class FileUploader(Resource):
     def get(self):
@@ -22,6 +23,7 @@ class EditFile(Resource):
     def get(self, file_id):
         return {'about': file_id}
 
+    #just place here to indicate there should be a PUT http request, PUT won't work as of now
     def put(self): #def put(self, file_id):
         edit_json = request.get_json()
         return {'edited': edit_json}, 201
@@ -55,7 +57,7 @@ class User(Resource):
 
 @app.route("/")
 def index():
-    return "Secure File Uploader API with RESTFUL"
+    return 'Secure File Uploader API with RESTFUL'
 
 api.add_resource(FileUploader, '/file')
 api.add_resource(EditFile, '/file/File_Info/<int:file_id>')
