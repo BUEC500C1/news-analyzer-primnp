@@ -1,7 +1,8 @@
 # news-analyzer-primnp
 news-analyzer-primnp created by GitHub Classroom
 
-Homework 2 Phase 1 are in different modules folder. Each folder consists of readme, python file, python test file.
+### 02/20/2021
+**Homework 2 Phase 1** are in different modules folder. Each folder consists of readme, python file, python test file.
 
 Readme consists of:
   * if entity-base API:
@@ -13,6 +14,7 @@ Readme consists of:
     * Example data
     * Possible operations
 
+---
 
 ### 02/28/2021
 **Homework 2 Phase 2**
