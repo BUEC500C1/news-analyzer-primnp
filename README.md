@@ -55,9 +55,9 @@ class FileUploader(Resource):
 
 3. Create a simple HTML page to and render the HTML template on each modules
 * To view HTML page for each module:
-    * 3.140.234.103/Port of the module
+    * 3.140.234.103:Port of the module
 
 Example: 
-> 3.140.234.103/8008 
+> 3.140.234.103:8008 
 <img src="/Images/hw2phase2_test.png" width="65%" />
 
