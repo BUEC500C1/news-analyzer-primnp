@@ -58,6 +58,6 @@ class FileUploader(Resource):
     * 3.140.234.103:Port of the module
 
 Example: 
-> 3.140.234.103:8008 
+> 3.140.234.103:8080 
 <img src="/Images/hw2phase2_test.png" width="65%" />
 
