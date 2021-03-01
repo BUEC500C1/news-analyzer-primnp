@@ -45,7 +45,7 @@ class FileUploader(Resource):
 
 **Public IPv4 Address: 3.140.234.103**
 
-#### Table 1 Modules and port hosted
+*Table 1 Modules and port hosted*
 | Module        | Port |
 | ------- | -------|
 | Secure File Uploader      | 80 |
