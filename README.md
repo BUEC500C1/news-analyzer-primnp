@@ -59,5 +59,5 @@ class FileUploader(Resource):
 
 Example: 
 > 3.140.234.103/8008 
-> <img src="/Images/hw2phase2_test.png" width="55%" />
+<img src="/Images/hw2phase2_test.png" width="65%" />
 
