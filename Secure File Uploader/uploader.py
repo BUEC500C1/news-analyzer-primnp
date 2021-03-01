@@ -1,6 +1,7 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 from flask_restful import Resource, Api
 import json
+import db
 
 app = Flask(__name__)
 api = Api(app)
@@ -57,7 +58,12 @@ class User(Resource):
 
 @app.route("/")
 def index():
-    return 'Secure File Uploader API with RESTFUL'
+    return render_template("home.html")
+
+@app.route("/test")
+def test():
+    db.db.collection.insert_one({"name":"John"})
+    return "database tested"
 
 api.add_resource(FileUploader, '/file')
 api.add_resource(EditFile, '/file/File_Info/<int:file_id>')

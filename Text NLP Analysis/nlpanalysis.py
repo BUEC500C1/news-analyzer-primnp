@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 from flask_restful import Resource, Api
 
 app = Flask(__name__)
@@ -137,7 +137,7 @@ def RemoveBiasData():
 
 @app.route("/")
 def index():
-    return 'Text NLP Analysis API with RESTFUL'
+    return render_template("nlphome.html")
 
 api.add_resource(ingestFile, '/file')
 api.add_resource(UpdateFile, '/file/file_content/<int:file_id>')

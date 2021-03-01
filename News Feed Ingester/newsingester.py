@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 from flask_restful import Resource, Api
 
 app = Flask(__name__)
@@ -124,7 +124,8 @@ def RemoveContentSentiment():
 
 @app.route("/")
 def index():
-    return 'News Feed Ingester API with RESTFUL'
+    #return 'News Feed Ingester API with RESTFUL'
+    return render_template("newshome.html")
 
 api.add_resource(ingestFile, '/file')
 api.add_resource(UpdateFile, '/file/file_content/<int:file_id>')
