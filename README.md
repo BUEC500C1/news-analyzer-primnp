@@ -20,7 +20,7 @@ Readme consists of:
 **Homework 2 Phase 2**
 
 **Works Completed**
-1. Integrated *flask_restful* to each of the module to make them become a full RESTFUL system
+1. Integrated *flask_restful* to each of the module to make them become a full RESTFUL system (aka create flask applications)
     * each API modules are not fully implemented; they are stub APIs serve to demonstrate possible features
 
 example partial implementations of flask_restful:
