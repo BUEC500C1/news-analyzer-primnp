@@ -62,7 +62,7 @@ def index():
 
 @app.route("/test")
 def test():
-    db.db.collection.insert_one({"name":"John"})
+    db.db.collection.insert_one({"test":"file"})
     return "database tested"
 
 api.add_resource(FileUploader, '/file')
