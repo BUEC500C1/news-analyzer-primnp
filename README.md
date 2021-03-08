@@ -66,6 +66,7 @@ Example:
 **Homework 2 Phase 3 First Deliverable**
 
 NOTE: testmongo.py has not been deployed to AWS - will work on this after
+
 **Works Completed**
 1. Setup MongoDB and integrate into flask (view in testmongo.py)
 2. Create database (flask-mongoDB-atlas)
