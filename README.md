@@ -65,6 +65,7 @@ Example:
 ### 03/01/2021
 **Homework 2 Phase 3 First Deliverable**
 
+NOTE: testmongo.py has not been deployed to AWS - will work on this after
 **Works Completed**
 1. Setup MongoDB and integrate into flask (view in testmongo.py)
 2. Create database (flask-mongoDB-atlas)
@@ -76,3 +77,5 @@ Example:
 **Works Completed**
 1. Extract Text from PDF files -- still need to work on ensuring text is extracted correctly
 2. Store Data in Database (view in testmongo.py)
+
+<img src="/Images/phase2_deli2.png" width="65%" />
