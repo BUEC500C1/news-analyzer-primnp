@@ -61,3 +61,18 @@ Example:
 > 3.140.234.103:8080 
 <img src="/Images/hw2phase2_test.png" width="65%" />
 
+---
+### 03/01/2021
+**Homework 2 Phase 3 First Deliverable**
+
+**Works Completed**
+1. Setup MongoDB and integrate into flask (view in testmongo.py)
+2. Create database (flask-mongoDB-atlas)
+
+
+### 03/7/2021
+**Homework 2 Phase 3 Second Deliverable**
+
+**Works Completed**
+1. Extract Text from PDF files -- still need to work on ensuring text is extracted correctly
+2. Store Data in Database (view in testmongo.py)
