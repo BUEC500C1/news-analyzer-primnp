@@ -84,5 +84,10 @@ NOTE: testmongo.py has not been deployed to AWS - will work on this after
 ### 03/21/2021
 **Continue Working on Homework 2**
 
+**Works Completed**
 1. Set up google NLP API
-2. test the gooogle NLP API with text input & return sentimment
+2. test the gooogle NLP API with text input & return sentiment (code runs on local machine)
+
+**To be completed**
+1. Set up github secrets
+2. Complete Sentiment the news feed search part
