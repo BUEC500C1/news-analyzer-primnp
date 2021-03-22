@@ -71,7 +71,7 @@ NOTE: testmongo.py has not been deployed to AWS - will work on this after
 1. Setup MongoDB and integrate into flask (view in testmongo.py)
 2. Create database (flask-mongoDB-atlas)
 
-
+---
 ### 03/7/2021
 **Homework 2 Phase 3 Second Deliverable**
 
@@ -81,6 +81,7 @@ NOTE: testmongo.py has not been deployed to AWS - will work on this after
 
 <img src="/Images/phase2_deli2.png" width="65%" />
 
+---
 ### 03/21/2021
 **Continue Working on Homework 2**
 
