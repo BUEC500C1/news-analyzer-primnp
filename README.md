@@ -66,11 +66,12 @@ Example:
 **Homework 2 Phase 3 First Deliverable**
 
 NOTE: testmongo.py has not been deployed to AWS - will work on this after
+
 **Works Completed**
 1. Setup MongoDB and integrate into flask (view in testmongo.py)
 2. Create database (flask-mongoDB-atlas)
 
-
+---
 ### 03/7/2021
 **Homework 2 Phase 3 Second Deliverable**
 
@@ -79,3 +80,15 @@ NOTE: testmongo.py has not been deployed to AWS - will work on this after
 2. Store Data in Database (view in testmongo.py)
 
 <img src="/Images/phase2_deli2.png" width="65%" />
+
+---
+### 03/21/2021
+**Continue Working on Homework 2**
+
+**Works Completed**
+1. Set up google NLP API
+2. test the gooogle NLP API with text input & return sentiment (code runs on local machine)
+
+**To be completed**
+1. Set up github secrets
+2. Complete Sentiment the news feed search part
