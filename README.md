@@ -86,7 +86,7 @@ NOTE: testmongo.py has not been deployed to AWS - will work on this after
 **Continue Working on Homework 2**
 
 **Works Completed**
-1. Set up google NLP API
+1. Set up google NLP API & credentials
 2. test the gooogle NLP API with text input & return sentiment (code runs on local machine) 
 > nlpanalysis.py 
 
