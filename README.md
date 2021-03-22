@@ -80,3 +80,9 @@ NOTE: testmongo.py has not been deployed to AWS - will work on this after
 2. Store Data in Database (view in testmongo.py)
 
 <img src="/Images/phase2_deli2.png" width="65%" />
+
+### 03/21/2021
+**Continue Working on Homework 2**
+
+1. Set up google NLP API
+2. test the gooogle NLP API with text input & return sentimment
