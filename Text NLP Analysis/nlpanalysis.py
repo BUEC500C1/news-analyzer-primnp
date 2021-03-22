@@ -1,8 +1,10 @@
 from flask import Flask, request, render_template
 from flask_restful import Resource, Api
+from google.cloud import language_v1
 
 app = Flask(__name__)
 api = Api(app)
+client = language_v1.LanguageServiceClient()
 
 #create
 class ingestFile(Resource):
@@ -12,6 +14,22 @@ class ingestFile(Resource):
     def post(self):
         json_file = request.get_json()
         return {'file ingested': json_file}, 201
+
+def returnSentiment():
+    # Instantiates a client
+    client = language_v1.LanguageServiceClient()
+
+    # The text to analyze
+    text = u"Special Topics in Electrical and Computer Engineering"
+    document = language_v1.Document(content=text, type_=language_v1.Document.Type.PLAIN_TEXT)
+
+    # Detects the sentiment of the text
+    sentiment = client.analyze_sentiment(request={'document': document}).document_sentiment
+
+    #print("Text: {}".format(text))
+    #print("Sentiment: {}, {}".format(sentiment.score, sentiment.magnitude))
+    return sentiment.score
+
 
 def searchOnKeywords():
     #input keywords
