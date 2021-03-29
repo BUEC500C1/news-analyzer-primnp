@@ -1,28 +1,36 @@
 from newsingester import *
+from News%20Feed%20Ingester import newsingester_calc as news
 
 def one_query():
     input1 = ['nyc']
-    res1 = ni.keyword_query(input1)
-    assert type(Result) == list
-    assert type(Result[0]) == dict
+    res1 = news.findWithKeyword(input1)
+    assert type(res[0]) == dict
 
-    validquery2 = ["hats", "bananas", "apples"]
-    Result = ni.keyword_query(validquery2)
-    assert type(Result) == list
-    assert type(Result[0]) == dict
-
-    #Invalid Test
-    invalidquery1 = 1
-    Result = ni.keyword_query(invalidquery1)
-    assert Result == []
-    invalidquery2 = []
-    Result = ni.keyword_query(invalidquery2)
-    assert Result == []
+    input2 = ['apple']
+    res2 = news.findWithKeyword(input2)
+    assert type(res[0]) == dict
     
+    input3 = 0
+    res3 = news.findWithKeyword(input3)
+    assert res3 == []
+
 def lists_query():
-    assert GetKeywordsSentimentData() == "(keywords, sentiment) data stat"
-    assert GetFileSource() == "file source"
-    assert GetSearchData() == "files with the stated keywords/sentiment"
+    input1 = ['nyc', 'apple', 'times']
+    res1 = news.findWithKeywordLists(input1)
+    assert type(res1) == dict
+
+    input2 = 0
+    res2 = news.findWithKeywordLists(input2)
+    assert res2 == []
+    
+    input3 = []
+    res3 = news.findWithKeywordLists(input3)
+    assert res3 == []
 
 def dmy_query():
-    assert UpdateFile() == "updated file"
+    test1 = news.dmy_query('2021', '2021', '03', '03', '25', '15', ['grape', 'apple'])
+    assert type(test1) == list
+    assert type(test1[0]) == dict
+    
+    test2 = news.dmy_query('2021', '2021', '03', '03', '15', '25', ['grape', 'apple'])
+    assert test2 == []
