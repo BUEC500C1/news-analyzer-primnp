@@ -9,9 +9,11 @@ I created 3 REST API modules. Each implementation are in the respective folder:
 3. Implementation of NLP - [Text NLP Analysis](https://github.com/BUEC500C1/news-analyzer-primnp/tree/main/Text%20NLP%20Analysis)
 
 Please refer to video to view demonstration of the homework.
-**NOTE: My Amazon EC2 instance has been running for a while. Please let me know if the ip address of REST API is not accessible.
+
+**NOTE: My Amazon EC2 instance has been running for a while. Please let me know if the ip address of REST API is not accessible.**
 
 **Public IPv4 Address: 3.140.234.103**
+
 *Table 1 Modules and port hosted*
 | Module        | Port |
 | ------- | -------|
