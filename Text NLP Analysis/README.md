@@ -3,15 +3,12 @@ news-analyzer-primnp created by GitHub Classroom
 
 
 ## User Stories - Text NLP Analysis
-* As a user, I want to search using keywords and boolean operators
-* As a user, I want to identify repeated phrase/keywords throughout documents
-* As a user, I want to create links with other documents via common keywords
-* As a user, I want to get recommendations based off previous search
-* As a user, I want to translate a word into another language (?)
+* As a user, I want to find text's entities
+* As a user, I want to find text's sentiment
+* As a user, I want to know category of the text
+* As a user, I want to obtain keywords from text
 * As a user, I want to input keywords/text to get sentiment
-* As a user, I want to search keywords and get relevant information from the web
-* As a user, I want to find bias of documents based on keywords/phrases
-* As a user, I want to extract and classify text data (e.g, emails, product reviews, tweets)
+* As a user, I want to know (entities,sentiments) key pair
 
 > Procedure-based module
 
