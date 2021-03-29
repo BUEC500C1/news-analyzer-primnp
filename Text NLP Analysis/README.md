@@ -76,13 +76,10 @@ URI  | HTTP Method
 #### Successful operation response example
 ```JSON
 {
-  "Results":
-  [{
-      "Entity":"dog","Score":-0.05000000074505806
-    },
-    {
+  "Results": [{
+      "Entity":"dog","Score":-0.05000000074505806},{
       "Entity":"brown fox","Score":0.0
-    }
+      }
   ]
 }
 
