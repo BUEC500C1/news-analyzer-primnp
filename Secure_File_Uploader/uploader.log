@@ -32,3 +32,7 @@
 [INFO] 2021-03-29 08:23:08,944 127.0.0.1 - - [29/Mar/2021 08:23:08] "GET /uploader/retrieve-text/4e/update/5e HTTP/1.1" 302 -
 [INFO] 2021-03-29 08:23:08,976 127.0.0.1 - - [29/Mar/2021 08:23:08] "GET /uploader/retrieve-text/5e HTTP/1.1" 200 -
 [INFO] 2021-03-29 08:32:35,637 127.0.0.1 - - [29/Mar/2021 08:32:35] "GET /uploader/retrieve-text/delete-many/5e HTTP/1.1" 200 -
+[INFO] 2021-03-29 08:47:43,068  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/Secure File Uploader/uploader.py', reloading
+[INFO] 2021-03-29 08:47:43,504  * Restarting with stat
+[WARNING] 2021-03-29 08:47:44,258  * Debugger is active!
+[INFO] 2021-03-29 08:47:44,268  * Debugger PIN: 203-970-524
