@@ -21,7 +21,7 @@ We will use key file to make request such as POST https://oauth2.googleapis.com/
 
 ## API Requests & Responses
 
-1. analyze_sentiment(string: text)
+1. **analyze_sentiment(string: text)**
   * take in string parameter
   * analyze sentiment of the given text string
 
@@ -43,7 +43,7 @@ URI  | HTTP Method
 {"SentimentScore":[]}
 ```
 
-2. analyze_entities(string: text)
+2. **analyze_entities(string: text)**
   * take in string parameter
   * analyze entities of the given text string
 
@@ -65,7 +65,7 @@ URI  | HTTP Method
 {"Entities":[]}
 ```
 
-3. analyze_entities_sentiments(string: text)
+3. **analyze_entities_sentiments(string: text)**
   * take in string parameter
   * analyze (entities, sentiments) value pair of the given text string
 
@@ -92,7 +92,7 @@ URI  | HTTP Method
 {"Results":[]}
 ```
 
-4. classify_content(string: text)
+4. **classify_content(string: text)**
   * take in string parameter
   * classify the given text into possible categories
 
