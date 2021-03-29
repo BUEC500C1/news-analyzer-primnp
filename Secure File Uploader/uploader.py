@@ -21,6 +21,7 @@ logging.basicConfig(filename='uploader.log', level=logging.INFO, format='[%(leve
 db_file = mongo.db.files_collection
 db_extracted = mongo.db.extracted_data
 
+# check for allowed file when extracting data, only pdf allowed
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
