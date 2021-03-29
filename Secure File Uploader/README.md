@@ -24,7 +24,8 @@ In this file uploader API implementation, I included mongoDB database. So the fi
 I created two separate database collection, one for uploading, and another for ingesting. In this entity-base API module, I have implemented CRUD.
 
 **1. File Uploader | Data Collection: files_collection**
-1.1 *Save uploaded file to database (C) and display the saved file (R)*
+
+ 1.1 *Save uploaded file to database (C) and display the saved file (R)*
   * Using POST method connected to form. When user hit submit button, POST is called to save file to mongoDB database. Data is saved to collection: files_collection.
   * Upon successful POST, user will be redirected to GET and the parameters returned will be json containing 4 parameters as stated in example below.
 
@@ -43,7 +44,7 @@ I created two separate database collection, one for uploading, and another for i
   }
   ```
 ---
-1.2 *Read operations to read file inside files_collection collection in several ways (R)*
+ 1.2 *Read operations to read file inside files_collection collection in several ways (R)*
   1.2.1 View all files in files_collection database
   URI  | HTTP Method
   ------------- | -------------
