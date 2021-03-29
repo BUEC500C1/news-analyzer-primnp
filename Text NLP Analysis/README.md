@@ -27,7 +27,7 @@ We will use key file to make request such as POST https://oauth2.googleapis.com/
 
 URI  | HTTP Method
 ------------- | -------------
-/nlp/retrieve-sentiment/<text>  | GET
+/nlp/retrieve-sentiment/(text)  | GET
 
 #### Successful operation response example
 ```JSON
@@ -71,7 +71,7 @@ URI  | HTTP Method
 
 URI  | HTTP Method
 ------------- | -------------
-/nlp/retrieve-entity-sentiment/<text>  | GET
+/nlp/retrieve-entity-sentiment/(text)  | GET
 
 #### Successful operation response example
 ```JSON
@@ -98,7 +98,7 @@ URI  | HTTP Method
 
 URI  | HTTP Method
 ------------- | -------------
-/nlp/content-classification/<text> | GET
+/nlp/content-classification/(text) | GET
 
 #### Successful operation response example
 ```JSON
