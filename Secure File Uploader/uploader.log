@@ -1,0 +1,536 @@
+[]INFO] 2021-03-29 01:14:28,394  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[]INFO] 2021-03-29 01:14:28,396  * Restarting with stat
+[]WARNING] 2021-03-29 01:14:28,820  * Debugger is active!
+[]INFO] 2021-03-29 01:14:28,830  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:15:00,383 127.0.0.1 - - [29/Mar/2021 01:15:00] "GET / HTTP/1.1" 302 -
+[]INFO] 2021-03-29 01:15:00,387 127.0.0.1 - - [29/Mar/2021 01:15:00] "GET /uploader HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:15:08,159 Uploaded Successfully
+[]INFO] 2021-03-29 01:15:08,160 127.0.0.1 - - [29/Mar/2021 01:15:08] "POST /uploader/save-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 01:15:08,167 127.0.0.1 - - [29/Mar/2021 01:15:08] "GET /uploader/retrieve-filejson/ HTTP/1.1" 404 -
+[]INFO] 2021-03-29 01:15:45,552 Uploaded Successfully
+[]INFO] 2021-03-29 01:15:45,553 127.0.0.1 - - [29/Mar/2021 01:15:45] "POST /uploader/save-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 01:15:45,628 127.0.0.1 - - [29/Mar/2021 01:15:45] "GET /uploader/retrieve-filejson/test HTTP/1.1" 500 -
+[]INFO] 2021-03-29 01:15:45,697 127.0.0.1 - - [29/Mar/2021 01:15:45] "GET /uploader/retrieve-filejson/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:15:45,698 127.0.0.1 - - [29/Mar/2021 01:15:45] "GET /uploader/retrieve-filejson/test?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:15:45,698 127.0.0.1 - - [29/Mar/2021 01:15:45] "GET /uploader/retrieve-filejson/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:15:46,043 127.0.0.1 - - [29/Mar/2021 01:15:46] "GET /uploader/retrieve-filejson/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:15:46,050 127.0.0.1 - - [29/Mar/2021 01:15:46] "GET /uploader/retrieve-filejson/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:15:46,121 127.0.0.1 - - [29/Mar/2021 01:15:46] "GET /uploader/retrieve-filejson/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:16:04,504 Uploaded Successfully
+[]INFO] 2021-03-29 01:16:04,505 127.0.0.1 - - [29/Mar/2021 01:16:04] "POST /uploader/save-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 01:16:04,546 127.0.0.1 - - [29/Mar/2021 01:16:04] "GET /uploader/retrieve-filejson/test HTTP/1.1" 500 -
+[]INFO] 2021-03-29 01:16:04,580 127.0.0.1 - - [29/Mar/2021 01:16:04] "GET /uploader/retrieve-filejson/test?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:16:04,583 127.0.0.1 - - [29/Mar/2021 01:16:04] "GET /uploader/retrieve-filejson/test?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:16:04,584 127.0.0.1 - - [29/Mar/2021 01:16:04] "GET /uploader/retrieve-filejson/test?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:16:04,869 127.0.0.1 - - [29/Mar/2021 01:16:04] "GET /uploader/retrieve-filejson/test?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:16:04,875 127.0.0.1 - - [29/Mar/2021 01:16:04] "GET /uploader/retrieve-filejson/test?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:16:53,950  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:16:54,373  * Restarting with stat
+[]WARNING] 2021-03-29 01:16:54,862  * Debugger is active!
+[]INFO] 2021-03-29 01:16:54,866  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:16:58,566 127.0.0.1 - - [29/Mar/2021 01:16:58] "GET /uploader HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:17:08,074 Uploaded Successfully
+[]INFO] 2021-03-29 01:17:08,075 127.0.0.1 - - [29/Mar/2021 01:17:08] "POST /uploader/save-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 01:17:08,121 127.0.0.1 - - [29/Mar/2021 01:17:08] "GET /uploader/retrieve-filejson/fast HTTP/1.1" 500 -
+[]INFO] 2021-03-29 01:17:08,161 127.0.0.1 - - [29/Mar/2021 01:17:08] "GET /uploader/retrieve-filejson/fast?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:17:08,162 127.0.0.1 - - [29/Mar/2021 01:17:08] "GET /uploader/retrieve-filejson/fast?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:17:08,162 127.0.0.1 - - [29/Mar/2021 01:17:08] "GET /uploader/retrieve-filejson/fast?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:17:08,473 127.0.0.1 - - [29/Mar/2021 01:17:08] "GET /uploader/retrieve-filejson/fast?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:17:08,478 127.0.0.1 - - [29/Mar/2021 01:17:08] "GET /uploader/retrieve-filejson/fast?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:17:08,518 127.0.0.1 - - [29/Mar/2021 01:17:08] "GET /uploader/retrieve-filejson/fast?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:18:28,617  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:18:29,134  * Restarting with stat
+[]WARNING] 2021-03-29 01:18:29,563  * Debugger is active!
+[]INFO] 2021-03-29 01:18:29,568  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:18:37,809  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:18:37,857  * Restarting with stat
+[]WARNING] 2021-03-29 01:18:38,280  * Debugger is active!
+[]INFO] 2021-03-29 01:18:38,284  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:18:39,384 127.0.0.1 - - [29/Mar/2021 01:18:39] "GET /uploader/retrieve-filejson/fast HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:19:27,662  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:19:28,228  * Restarting with stat
+[]WARNING] 2021-03-29 01:19:28,721  * Debugger is active!
+[]INFO] 2021-03-29 01:19:28,726  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:19:40,466 Uploaded Successfully
+[]INFO] 2021-03-29 01:19:40,467 127.0.0.1 - - [29/Mar/2021 01:19:40] "POST /uploader/save-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 01:19:40,512 127.0.0.1 - - [29/Mar/2021 01:19:40] "GET /uploader/retrieve-filejson/fast HTTP/1.1" 500 -
+[]INFO] 2021-03-29 01:19:40,572 127.0.0.1 - - [29/Mar/2021 01:19:40] "GET /uploader/retrieve-filejson/fast?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:19:40,574 127.0.0.1 - - [29/Mar/2021 01:19:40] "GET /uploader/retrieve-filejson/fast?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:19:40,575 127.0.0.1 - - [29/Mar/2021 01:19:40] "GET /uploader/retrieve-filejson/fast?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:19:40,859 127.0.0.1 - - [29/Mar/2021 01:19:40] "GET /uploader/retrieve-filejson/fast?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:19:40,865 127.0.0.1 - - [29/Mar/2021 01:19:40] "GET /uploader/retrieve-filejson/fast?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:19:40,906 127.0.0.1 - - [29/Mar/2021 01:19:40] "GET /uploader/retrieve-filejson/fast?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:19:51,384  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:19:51,830  * Restarting with stat
+[]WARNING] 2021-03-29 01:19:52,248  * Debugger is active!
+[]INFO] 2021-03-29 01:19:52,253  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:20:23,105  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:20:23,158  * Restarting with stat
+[]WARNING] 2021-03-29 01:20:23,654  * Debugger is active!
+[]INFO] 2021-03-29 01:20:23,660  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:20:24,864 127.0.0.1 - - [29/Mar/2021 01:20:24] "GET /uploader HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:20:33,892 Uploaded Successfully
+[]INFO] 2021-03-29 01:20:33,894 127.0.0.1 - - [29/Mar/2021 01:20:33] "POST /uploader/save-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 01:20:33,926 127.0.0.1 - - [29/Mar/2021 01:20:33] "GET /uploader/retrieve-filejson/gog HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:21:30,608  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:21:31,150  * Restarting with stat
+[]WARNING] 2021-03-29 01:21:31,621  * Debugger is active!
+[]INFO] 2021-03-29 01:21:31,626  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:21:33,682  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:21:33,736  * Restarting with stat
+[]WARNING] 2021-03-29 01:21:34,165  * Debugger is active!
+[]INFO] 2021-03-29 01:21:34,170  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:22:55,537  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:22:55,596  * Restarting with stat
+[]WARNING] 2021-03-29 01:22:56,025  * Debugger is active!
+[]INFO] 2021-03-29 01:22:56,030  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:23:06,335  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:23:06,386  * Restarting with stat
+[]WARNING] 2021-03-29 01:23:06,851  * Debugger is active!
+[]INFO] 2021-03-29 01:23:06,856  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:23:29,478  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:23:29,523  * Restarting with stat
+[]WARNING] 2021-03-29 01:23:29,918  * Debugger is active!
+[]INFO] 2021-03-29 01:23:29,923  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:23:30,948  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:23:30,996  * Restarting with stat
+[]WARNING] 2021-03-29 01:23:31,413  * Debugger is active!
+[]INFO] 2021-03-29 01:23:31,417  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:23:47,855  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:23:47,905  * Restarting with stat
+[]WARNING] 2021-03-29 01:23:48,364  * Debugger is active!
+[]INFO] 2021-03-29 01:23:48,369  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:23:53,522  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:23:53,572  * Restarting with stat
+[]WARNING] 2021-03-29 01:23:54,019  * Debugger is active!
+[]INFO] 2021-03-29 01:23:54,024  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:24:08,450  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:24:08,502  * Restarting with stat
+[]WARNING] 2021-03-29 01:24:08,998  * Debugger is active!
+[]INFO] 2021-03-29 01:24:09,003  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:24:10,426 127.0.0.1 - - [29/Mar/2021 01:24:10] "GET / HTTP/1.1" 302 -
+[]INFO] 2021-03-29 01:24:10,430 127.0.0.1 - - [29/Mar/2021 01:24:10] "GET /uploader HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:24:20,360 Extracted Successfully
+[]INFO] 2021-03-29 01:24:20,743 127.0.0.1 - - [29/Mar/2021 01:24:20] "POST /uploader/extract-file HTTP/1.1" 500 -
+[]INFO] 2021-03-29 01:24:20,787 127.0.0.1 - - [29/Mar/2021 01:24:20] "GET /uploader/extract-file?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:24:20,787 127.0.0.1 - - [29/Mar/2021 01:24:20] "GET /uploader/extract-file?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:24:20,787 127.0.0.1 - - [29/Mar/2021 01:24:20] "GET /uploader/extract-file?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:24:21,078 127.0.0.1 - - [29/Mar/2021 01:24:21] "GET /uploader/extract-file?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:24:21,087 127.0.0.1 - - [29/Mar/2021 01:24:21] "GET /uploader/extract-file?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:24:21,129 127.0.0.1 - - [29/Mar/2021 01:24:21] "GET /uploader/extract-file?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:25:12,948  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:25:13,299  * Restarting with stat
+[]WARNING] 2021-03-29 01:25:13,763  * Debugger is active!
+[]INFO] 2021-03-29 01:25:13,767  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:25:15,159 Extracted Successfully
+[]INFO] 2021-03-29 01:25:15,497 127.0.0.1 - - [29/Mar/2021 01:25:15] "POST /uploader/extract-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 01:25:15,515 127.0.0.1 - - [29/Mar/2021 01:25:15] "GET /uploader/retrieve-text/TestG HTTP/1.1" 500 -
+[]INFO] 2021-03-29 01:25:15,575 127.0.0.1 - - [29/Mar/2021 01:25:15] "GET /uploader/retrieve-text/TestG?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:25:15,577 127.0.0.1 - - [29/Mar/2021 01:25:15] "GET /uploader/retrieve-text/TestG?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:25:15,577 127.0.0.1 - - [29/Mar/2021 01:25:15] "GET /uploader/retrieve-text/TestG?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:25:15,903 127.0.0.1 - - [29/Mar/2021 01:25:15] "GET /uploader/retrieve-text/TestG?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:25:15,910 127.0.0.1 - - [29/Mar/2021 01:25:15] "GET /uploader/retrieve-text/TestG?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:25:15,957 127.0.0.1 - - [29/Mar/2021 01:25:15] "GET /uploader/retrieve-text/TestG?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:25:49,828  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:25:50,212  * Restarting with stat
+[]WARNING] 2021-03-29 01:25:50,702  * Debugger is active!
+[]INFO] 2021-03-29 01:25:50,708  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:25:51,821 127.0.0.1 - - [29/Mar/2021 01:25:51] "GET /uploader/retrieve-text/TestG HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:27:40,803 127.0.0.1 - - [29/Mar/2021 01:27:40] "GET /uploader/view-file/test HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:27:40,999 127.0.0.1 - - [29/Mar/2021 01:27:40] "GET /uploader/file/testfile.pdf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:28:48,874  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:28:49,403  * Restarting with stat
+[]WARNING] 2021-03-29 01:28:49,848  * Debugger is active!
+[]INFO] 2021-03-29 01:28:49,853  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:28:50,437 127.0.0.1 - - [29/Mar/2021 01:28:50] "GET /uploader/view-file/test HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:29:06,285 127.0.0.1 - - [29/Mar/2021 01:29:06] "GET /uploader/view-file/test HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:29:06,316  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:29:06,851  * Restarting with stat
+[]WARNING] 2021-03-29 01:29:07,285  * Debugger is active!
+[]INFO] 2021-03-29 01:29:07,290  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:29:08,028 127.0.0.1 - - [29/Mar/2021 01:29:08] "GET /uploader/view-file/test HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:30:58,495  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:30:58,944  * Restarting with stat
+[]WARNING] 2021-03-29 01:30:59,379  * Debugger is active!
+[]INFO] 2021-03-29 01:30:59,384  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:32:58,848  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:32:58,899  * Restarting with stat
+[]INFO] 2021-03-29 01:39:43,367  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[]INFO] 2021-03-29 01:39:43,368  * Restarting with stat
+[]WARNING] 2021-03-29 01:39:43,783  * Debugger is active!
+[]INFO] 2021-03-29 01:39:43,791  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:39:51,874 127.0.0.1 - - [29/Mar/2021 01:39:51] "GET /uploader/view-file/test HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:39:56,246 127.0.0.1 - - [29/Mar/2021 01:39:56] "GET /uploader/view-file/gog HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:39:56,403 127.0.0.1 - - [29/Mar/2021 01:39:56] "GET /uploader/file/test_text.pdf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:00,018 127.0.0.1 - - [29/Mar/2021 01:40:00] "GET /uploader/view-file/gig HTTP/1.1" 500 -
+[]INFO] 2021-03-29 01:40:00,050 127.0.0.1 - - [29/Mar/2021 01:40:00] "GET /uploader/view-file/gig?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:00,053 127.0.0.1 - - [29/Mar/2021 01:40:00] "GET /uploader/view-file/gig?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:00,053 127.0.0.1 - - [29/Mar/2021 01:40:00] "GET /uploader/view-file/gig?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:00,210 127.0.0.1 - - [29/Mar/2021 01:40:00] "GET /uploader/view-file/gig?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:00,216 127.0.0.1 - - [29/Mar/2021 01:40:00] "GET /uploader/view-file/gig?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:00,297 127.0.0.1 - - [29/Mar/2021 01:40:00] "GET /uploader/view-file/gig?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:02,832 127.0.0.1 - - [29/Mar/2021 01:40:02] "GET /uploader/view-file/gigi HTTP/1.1" 500 -
+[]INFO] 2021-03-29 01:40:02,859 127.0.0.1 - - [29/Mar/2021 01:40:02] "GET /uploader/view-file/gigi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:02,863 127.0.0.1 - - [29/Mar/2021 01:40:02] "GET /uploader/view-file/gigi?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:02,875 127.0.0.1 - - [29/Mar/2021 01:40:02] "GET /uploader/view-file/gigi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:02,993 127.0.0.1 - - [29/Mar/2021 01:40:02] "GET /uploader/view-file/gigi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:02,998 127.0.0.1 - - [29/Mar/2021 01:40:02] "GET /uploader/view-file/gigi?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:03,037 127.0.0.1 - - [29/Mar/2021 01:40:03] "GET /uploader/view-file/gigi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:16,358 127.0.0.1 - - [29/Mar/2021 01:40:16] "GET /uploader/view-file/test2 HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:40:16,568 127.0.0.1 - - [29/Mar/2021 01:40:16] "GET /uploader/file/final_result.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:41:01,598 127.0.0.1 - - [29/Mar/2021 01:41:01] "GET /uploader/file/test2/update/testnew HTTP/1.1" 500 -
+[]INFO] 2021-03-29 01:41:01,653 127.0.0.1 - - [29/Mar/2021 01:41:01] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:41:01,655 127.0.0.1 - - [29/Mar/2021 01:41:01] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:41:01,655 127.0.0.1 - - [29/Mar/2021 01:41:01] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:41:01,951 127.0.0.1 - - [29/Mar/2021 01:41:01] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:41:01,957 127.0.0.1 - - [29/Mar/2021 01:41:01] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:41:02,003 127.0.0.1 - - [29/Mar/2021 01:41:02] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:41:18,507  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:41:18,973  * Restarting with stat
+[]WARNING] 2021-03-29 01:41:19,391  * Debugger is active!
+[]INFO] 2021-03-29 01:41:19,395  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:41:20,419  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:41:20,464  * Restarting with stat
+[]WARNING] 2021-03-29 01:41:20,899  * Debugger is active!
+[]INFO] 2021-03-29 01:41:20,904  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:41:22,039 Updated file successfully
+[]INFO] 2021-03-29 01:41:22,051 127.0.0.1 - - [29/Mar/2021 01:41:22] "GET /uploader/file/test2/update/testnew HTTP/1.1" 500 -
+[]INFO] 2021-03-29 01:41:22,085 127.0.0.1 - - [29/Mar/2021 01:41:22] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:41:22,088 127.0.0.1 - - [29/Mar/2021 01:41:22] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:41:22,092 127.0.0.1 - - [29/Mar/2021 01:41:22] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:41:22,383 127.0.0.1 - - [29/Mar/2021 01:41:22] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:41:22,389 127.0.0.1 - - [29/Mar/2021 01:41:22] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:41:22,427 127.0.0.1 - - [29/Mar/2021 01:41:22] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:41:48,658  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:41:49,134  * Restarting with stat
+[]WARNING] 2021-03-29 01:41:49,555  * Debugger is active!
+[]INFO] 2021-03-29 01:41:49,559  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:42:06,056  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:42:06,115  * Restarting with stat
+[]WARNING] 2021-03-29 01:42:06,602  * Debugger is active!
+[]INFO] 2021-03-29 01:42:06,607  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:42:08,132 Updated file successfully
+[]INFO] 2021-03-29 01:42:08,145 127.0.0.1 - - [29/Mar/2021 01:42:08] "GET /uploader/file/test2/update/testnew HTTP/1.1" 500 -
+[]INFO] 2021-03-29 01:42:08,201 127.0.0.1 - - [29/Mar/2021 01:42:08] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:42:08,203 127.0.0.1 - - [29/Mar/2021 01:42:08] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:42:08,206 127.0.0.1 - - [29/Mar/2021 01:42:08] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:42:08,491 127.0.0.1 - - [29/Mar/2021 01:42:08] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:42:08,496 127.0.0.1 - - [29/Mar/2021 01:42:08] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:42:08,543 127.0.0.1 - - [29/Mar/2021 01:42:08] "GET /uploader/file/test2/update/testnew?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:42:22,044  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:42:22,531  * Restarting with stat
+[]WARNING] 2021-03-29 01:42:22,950  * Debugger is active!
+[]INFO] 2021-03-29 01:42:22,954  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:42:24,773 Updated file successfully
+[]INFO] 2021-03-29 01:42:24,775 127.0.0.1 - - [29/Mar/2021 01:42:24] "GET /uploader/file/test2/update/testnew HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:42:46,658 127.0.0.1 - - [29/Mar/2021 01:42:46] "GET /uploader/view-file/testnew HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:44:12,954  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:44:13,262  * Restarting with stat
+[]WARNING] 2021-03-29 01:44:13,655  * Debugger is active!
+[]INFO] 2021-03-29 01:44:13,659  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:44:21,763 127.0.0.1 - - [29/Mar/2021 01:44:21] "GET /uploader/retrieve-filejson/testnew HTTP/1.1" 500 -
+[]INFO] 2021-03-29 01:44:21,820 127.0.0.1 - - [29/Mar/2021 01:44:21] "GET /uploader/retrieve-filejson/testnew?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:44:21,820 127.0.0.1 - - [29/Mar/2021 01:44:21] "GET /uploader/retrieve-filejson/testnew?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:44:21,821 127.0.0.1 - - [29/Mar/2021 01:44:21] "GET /uploader/retrieve-filejson/testnew?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:44:22,101 127.0.0.1 - - [29/Mar/2021 01:44:22] "GET /uploader/retrieve-filejson/testnew?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:44:22,105 127.0.0.1 - - [29/Mar/2021 01:44:22] "GET /uploader/retrieve-filejson/testnew?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:44:22,146 127.0.0.1 - - [29/Mar/2021 01:44:22] "GET /uploader/retrieve-filejson/testnew?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:44:47,623  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:44:48,180  * Restarting with stat
+[]WARNING] 2021-03-29 01:44:48,590  * Debugger is active!
+[]INFO] 2021-03-29 01:44:48,595  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:45:06,591 127.0.0.1 - - [29/Mar/2021 01:45:06] "GET //uploader/retrieve-filejson/testnew/update/testold HTTP/1.1" 404 -
+[]INFO] 2021-03-29 01:45:12,631 Updated file successfully
+[]INFO] 2021-03-29 01:45:12,632 127.0.0.1 - - [29/Mar/2021 01:45:12] "GET /uploader/retrieve-filejson/testnew/update/testold HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:45:17,234 127.0.0.1 - - [29/Mar/2021 01:45:17] "GET /uploader/retrieve-filejson/testold HTTP/1.1" 500 -
+[]INFO] 2021-03-29 01:45:17,262 127.0.0.1 - - [29/Mar/2021 01:45:17] "GET /uploader/retrieve-filejson/testold?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:45:17,264 127.0.0.1 - - [29/Mar/2021 01:45:17] "GET /uploader/retrieve-filejson/testold?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:45:17,264 127.0.0.1 - - [29/Mar/2021 01:45:17] "GET /uploader/retrieve-filejson/testold?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:45:17,391 127.0.0.1 - - [29/Mar/2021 01:45:17] "GET /uploader/retrieve-filejson/testold?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:45:17,397 127.0.0.1 - - [29/Mar/2021 01:45:17] "GET /uploader/retrieve-filejson/testold?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:45:17,441 127.0.0.1 - - [29/Mar/2021 01:45:17] "GET /uploader/retrieve-filejson/testold?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:46:08,810  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:46:09,255  * Restarting with stat
+[]WARNING] 2021-03-29 01:46:09,712  * Debugger is active!
+[]INFO] 2021-03-29 01:46:09,717  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:46:16,708 127.0.0.1 - - [29/Mar/2021 01:46:16] "GET /update-if-exist-or-insert HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:46:57,008  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:46:57,425  * Restarting with stat
+[]WARNING] 2021-03-29 01:46:57,910  * Debugger is active!
+[]INFO] 2021-03-29 01:46:57,915  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:47:03,137 127.0.0.1 - - [29/Mar/2021 01:47:03] "GET /update-if-exist-or-insert HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:48:09,977  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:48:10,263  * Restarting with stat
+[]WARNING] 2021-03-29 01:48:10,727  * Debugger is active!
+[]INFO] 2021-03-29 01:48:10,732  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:48:29,485 Updated file successfully
+[]INFO] 2021-03-29 01:48:29,486 127.0.0.1 - - [29/Mar/2021 01:48:29] "GET /uploader/retrieve-filejson/testold/update/testnew HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:48:35,510 127.0.0.1 - - [29/Mar/2021 01:48:35] "GET /uploader/retrieve-filejson/testnew HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:52:37,178  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:52:37,582  * Restarting with stat
+[]WARNING] 2021-03-29 01:52:38,058  * Debugger is active!
+[]INFO] 2021-03-29 01:52:38,063  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:52:51,432  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:52:51,482  * Restarting with stat
+[]WARNING] 2021-03-29 01:52:51,949  * Debugger is active!
+[]INFO] 2021-03-29 01:52:51,954  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:54:06,545 127.0.0.1 - - [29/Mar/2021 01:54:06] "GET /uploader/file/retrieve-filejson/delete-many/testnew HTTP/1.1" 404 -
+[]INFO] 2021-03-29 01:54:18,835 127.0.0.1 - - [29/Mar/2021 01:54:18] "GET /uploader/retrieve-filejson/delete-many/testnew HTTP/1.1" 404 -
+[]INFO] 2021-03-29 01:54:21,922 127.0.0.1 - - [29/Mar/2021 01:54:21] "GET /uploader/retrieve-filejson/delete-many/testnew HTTP/1.1" 404 -
+[]INFO] 2021-03-29 01:54:26,694  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:54:26,745  * Restarting with stat
+[]WARNING] 2021-03-29 01:54:27,159  * Debugger is active!
+[]INFO] 2021-03-29 01:54:27,165  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:54:49,619 127.0.0.1 - - [29/Mar/2021 01:54:49] "GET /uploader/retrieve-filejson/delete-many/testnew HTTP/1.1" 200 -
+[]INFO] 2021-03-29 01:56:19,364  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:56:19,849  * Restarting with stat
+[]WARNING] 2021-03-29 01:56:20,252  * Debugger is active!
+[]INFO] 2021-03-29 01:56:20,257  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:57:41,600  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 01:57:41,648  * Restarting with stat
+[]WARNING] 2021-03-29 01:57:42,173  * Debugger is active!
+[]INFO] 2021-03-29 01:57:42,177  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 01:58:18,864 Updated file successfully
+[]INFO] 2021-03-29 01:58:18,865 127.0.0.1 - - [29/Mar/2021 01:58:18] "GET /uploader/retrieve-filejson/test_img/update/testimg HTTP/1.1" 302 -
+[]INFO] 2021-03-29 01:58:18,902 127.0.0.1 - - [29/Mar/2021 01:58:18] "GET /uploader/retrieve-filejson/testimg HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:00:06,290  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 02:00:06,677  * Restarting with stat
+[]WARNING] 2021-03-29 02:00:07,140  * Debugger is active!
+[]INFO] 2021-03-29 02:00:07,144  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 02:00:13,327  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 02:00:13,379  * Restarting with stat
+[]WARNING] 2021-03-29 02:00:13,793  * Debugger is active!
+[]INFO] 2021-03-29 02:00:13,798  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 02:00:34,930 Updated file successfully
+[]INFO] 2021-03-29 02:00:34,932 127.0.0.1 - - [29/Mar/2021 02:00:34] "GET /uploader/retrieve-filejson/testimg/update/test_img HTTP/1.1" 302 -
+[]INFO] 2021-03-29 02:00:34,966 127.0.0.1 - - [29/Mar/2021 02:00:34] "GET /uploader/retrieve-filejson/test_img HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:01:57,788  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 02:01:58,185  * Restarting with stat
+[]INFO] 2021-03-29 02:03:46,620  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[]INFO] 2021-03-29 02:03:46,621  * Restarting with stat
+[]WARNING] 2021-03-29 02:03:47,034  * Debugger is active!
+[]INFO] 2021-03-29 02:03:47,041  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 02:03:53,686 127.0.0.1 - - [29/Mar/2021 02:03:53] "GET /uploader/retrieve-filejson/test_img HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:04:24,956 127.0.0.1 - - [29/Mar/2021 02:04:24] "GET /uploader HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:04:35,618 Upload initiated
+[]INFO] 2021-03-29 02:04:36,037 Uploaded Successfully
+[]INFO] 2021-03-29 02:04:36,039 127.0.0.1 - - [29/Mar/2021 02:04:36] "POST /uploader/save-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 02:04:36,072 127.0.0.1 - - [29/Mar/2021 02:04:36] "GET /uploader/retrieve-filejson/fifi HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:04:45,570 Updated file successfully
+[]INFO] 2021-03-29 02:04:45,571 127.0.0.1 - - [29/Mar/2021 02:04:45] "GET /uploader/retrieve-filejson/fifi/update/fifi_new HTTP/1.1" 302 -
+[]INFO] 2021-03-29 02:04:45,603 127.0.0.1 - - [29/Mar/2021 02:04:45] "GET /uploader/retrieve-filejson/fifi_new HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:05:09,018 127.0.0.1 - - [29/Mar/2021 02:05:09] "GET /uploader/retrieve-filejson/delete-many/fifi_new HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:05:15,311 127.0.0.1 - - [29/Mar/2021 02:05:15] "GET /uploader/retrieve-filejson/fifi_new HTTP/1.1" 500 -
+[]INFO] 2021-03-29 02:05:15,344 127.0.0.1 - - [29/Mar/2021 02:05:15] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:05:15,345 127.0.0.1 - - [29/Mar/2021 02:05:15] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:05:15,347 127.0.0.1 - - [29/Mar/2021 02:05:15] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:05:15,405 127.0.0.1 - - [29/Mar/2021 02:05:15] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:05:15,483 127.0.0.1 - - [29/Mar/2021 02:05:15] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:05:15,540 127.0.0.1 - - [29/Mar/2021 02:05:15] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:06:21,490  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 02:06:21,714  * Restarting with stat
+[]INFO] 2021-03-29 02:07:33,123  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[]INFO] 2021-03-29 02:07:33,127  * Restarting with stat
+[]WARNING] 2021-03-29 02:07:33,577  * Debugger is active!
+[]INFO] 2021-03-29 02:07:33,582  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 02:07:37,093 127.0.0.1 - - [29/Mar/2021 02:07:37] "GET /uploader/retrieve-filejson/fifi_new HTTP/1.1" 500 -
+[]INFO] 2021-03-29 02:07:37,141 127.0.0.1 - - [29/Mar/2021 02:07:37] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:07:37,143 127.0.0.1 - - [29/Mar/2021 02:07:37] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:07:37,144 127.0.0.1 - - [29/Mar/2021 02:07:37] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:07:37,505 127.0.0.1 - - [29/Mar/2021 02:07:37] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:07:37,525 127.0.0.1 - - [29/Mar/2021 02:07:37] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:07:37,624 127.0.0.1 - - [29/Mar/2021 02:07:37] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:08:17,848  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 02:08:18,384  * Restarting with stat
+[]WARNING] 2021-03-29 02:08:18,840  * Debugger is active!
+[]INFO] 2021-03-29 02:08:18,845  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 02:08:20,221 127.0.0.1 - - [29/Mar/2021 02:08:20] "GET /uploader/retrieve-filejson/fifi_new HTTP/1.1" 500 -
+[]INFO] 2021-03-29 02:08:20,276 127.0.0.1 - - [29/Mar/2021 02:08:20] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:08:20,279 127.0.0.1 - - [29/Mar/2021 02:08:20] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:08:20,280 127.0.0.1 - - [29/Mar/2021 02:08:20] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:08:20,575 127.0.0.1 - - [29/Mar/2021 02:08:20] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:08:20,581 127.0.0.1 - - [29/Mar/2021 02:08:20] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:08:20,627 127.0.0.1 - - [29/Mar/2021 02:08:20] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:08:44,596  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 02:08:44,850  * Restarting with stat
+[]INFO] 2021-03-29 02:21:50,881  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[]INFO] 2021-03-29 02:21:50,882  * Restarting with stat
+[]WARNING] 2021-03-29 02:21:51,290  * Debugger is active!
+[]INFO] 2021-03-29 02:21:51,298  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 02:22:21,433 127.0.0.1 - - [29/Mar/2021 02:22:21] "GET /uploader/retrieve-text/TestG HTTP/1.1" 500 -
+[]INFO] 2021-03-29 02:22:21,490 127.0.0.1 - - [29/Mar/2021 02:22:21] "GET /uploader/retrieve-text/TestG?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:22:21,492 127.0.0.1 - - [29/Mar/2021 02:22:21] "GET /uploader/retrieve-text/TestG?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:22:21,492 127.0.0.1 - - [29/Mar/2021 02:22:21] "GET /uploader/retrieve-text/TestG?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:22:21,838 127.0.0.1 - - [29/Mar/2021 02:22:21] "GET /uploader/retrieve-text/TestG?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:22:21,853 127.0.0.1 - - [29/Mar/2021 02:22:21] "GET /uploader/retrieve-text/TestG?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:22:21,956 127.0.0.1 - - [29/Mar/2021 02:22:21] "GET /uploader/retrieve-text/TestG?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:22:39,430 127.0.0.1 - - [29/Mar/2021 02:22:39] "GET /uploader/retrieve-text/22 HTTP/1.1" 500 -
+[]INFO] 2021-03-29 02:22:39,482 127.0.0.1 - - [29/Mar/2021 02:22:39] "GET /uploader/retrieve-text/22?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:22:39,483 127.0.0.1 - - [29/Mar/2021 02:22:39] "GET /uploader/retrieve-text/22?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:22:39,483 127.0.0.1 - - [29/Mar/2021 02:22:39] "GET /uploader/retrieve-text/22?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:22:39,796 127.0.0.1 - - [29/Mar/2021 02:22:39] "GET /uploader/retrieve-text/22?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:22:39,802 127.0.0.1 - - [29/Mar/2021 02:22:39] "GET /uploader/retrieve-text/22?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:22:39,843 127.0.0.1 - - [29/Mar/2021 02:22:39] "GET /uploader/retrieve-text/22?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:23:05,121 127.0.0.1 - - [29/Mar/2021 02:23:05] "GET /uploader/retrieve-filejson/fifi_new HTTP/1.1" 500 -
+[]INFO] 2021-03-29 02:23:05,600 127.0.0.1 - - [29/Mar/2021 02:23:05] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:23:06,197 127.0.0.1 - - [29/Mar/2021 02:23:06] "GET /uploader/retrieve-filejson/fifi_new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:23:15,286 Extract file initiated
+[]INFO] 2021-03-29 02:23:15,299 Extracted Successfully
+[]INFO] 2021-03-29 02:23:15,342 127.0.0.1 - - [29/Mar/2021 02:23:15] "POST /uploader/extract-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 02:23:15,372 127.0.0.1 - - [29/Mar/2021 02:23:15] "GET /uploader/retrieve-text/fifi HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:23:23,341 Updated extracted file successfully
+[]INFO] 2021-03-29 02:23:23,342 127.0.0.1 - - [29/Mar/2021 02:23:23] "GET /uploader/retrieve-text/fifi/update/fifi_new HTTP/1.1" 302 -
+[]INFO] 2021-03-29 02:23:23,373 127.0.0.1 - - [29/Mar/2021 02:23:23] "GET /uploader/retrieve-text/fifi_new HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:23:52,712 127.0.0.1 - - [29/Mar/2021 02:23:52] "GET /uploader/retrieve-text/delete-many/fifi_new HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:24:28,863  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 02:24:29,366  * Restarting with stat
+[]WARNING] 2021-03-29 02:24:29,848  * Debugger is active!
+[]INFO] 2021-03-29 02:24:29,853  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 02:53:56,880  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 02:53:56,933  * Restarting with stat
+[]WARNING] 2021-03-29 02:53:57,452  * Debugger is active!
+[]INFO] 2021-03-29 02:53:57,460  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 02:54:00,554  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 02:54:00,607  * Restarting with stat
+[]WARNING] 2021-03-29 02:54:01,086  * Debugger is active!
+[]INFO] 2021-03-29 02:54:01,091  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 02:54:08,631 127.0.0.1 - - [29/Mar/2021 02:54:08] "GET /uploader/view-all HTTP/1.1" 500 -
+[]INFO] 2021-03-29 02:54:08,662 127.0.0.1 - - [29/Mar/2021 02:54:08] "GET /uploader/view-all?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:54:08,662 127.0.0.1 - - [29/Mar/2021 02:54:08] "GET /uploader/view-all?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:54:08,666 127.0.0.1 - - [29/Mar/2021 02:54:08] "GET /uploader/view-all?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:54:09,005 127.0.0.1 - - [29/Mar/2021 02:54:09] "GET /uploader/view-all?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:54:09,013 127.0.0.1 - - [29/Mar/2021 02:54:09] "GET /uploader/view-all?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:54:09,071 127.0.0.1 - - [29/Mar/2021 02:54:09] "GET /uploader/view-all?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:58:20,084 127.0.0.1 - - [29/Mar/2021 02:58:20] "GET /uploader HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:58:29,698 Upload initiated
+[]INFO] 2021-03-29 02:58:29,869 Uploaded Successfully
+[]INFO] 2021-03-29 02:58:29,870 127.0.0.1 - - [29/Mar/2021 02:58:29] "POST /uploader/save-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 02:58:29,897 127.0.0.1 - - [29/Mar/2021 02:58:29] "GET /uploader/retrieve-filejson/1 HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:58:51,266 Upload initiated
+[]INFO] 2021-03-29 02:58:51,433 Uploaded Successfully
+[]INFO] 2021-03-29 02:58:51,435 127.0.0.1 - - [29/Mar/2021 02:58:51] "POST /uploader/save-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 02:58:51,465 127.0.0.1 - - [29/Mar/2021 02:58:51] "GET /uploader/retrieve-filejson/2 HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:59:03,561 Upload initiated
+[]INFO] 2021-03-29 02:59:04,186 Uploaded Successfully
+[]INFO] 2021-03-29 02:59:04,187 127.0.0.1 - - [29/Mar/2021 02:59:04] "POST /uploader/save-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 02:59:04,219 127.0.0.1 - - [29/Mar/2021 02:59:04] "GET /uploader/retrieve-filejson/3 HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:59:33,232 Upload initiated
+[]INFO] 2021-03-29 02:59:33,555 Uploaded Successfully
+[]INFO] 2021-03-29 02:59:33,556 127.0.0.1 - - [29/Mar/2021 02:59:33] "POST /uploader/save-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 02:59:33,587 127.0.0.1 - - [29/Mar/2021 02:59:33] "GET /uploader/retrieve-filejson/4 HTTP/1.1" 200 -
+[]INFO] 2021-03-29 02:59:49,690 127.0.0.1 - - [29/Mar/2021 02:59:49] "GET /uploader/view-all HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:00:57,291  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 03:00:57,702  * Restarting with stat
+[]INFO] 2021-03-29 03:01:53,701  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[]INFO] 2021-03-29 03:01:53,702  * Restarting with stat
+[]WARNING] 2021-03-29 03:01:54,157  * Debugger is active!
+[]INFO] 2021-03-29 03:01:54,164  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 03:03:46,429  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 03:03:46,476  * Restarting with stat
+[]WARNING] 2021-03-29 03:03:46,971  * Debugger is active!
+[]INFO] 2021-03-29 03:03:46,976  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 03:03:57,187 127.0.0.1 - - [29/Mar/2021 03:03:57] "GET /uploader/retrieve-text/view-all HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:04:08,489 127.0.0.1 - - [29/Mar/2021 03:04:08] "GET /uploader/retrieve-filejson/view-all HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:04:16,227 127.0.0.1 - - [29/Mar/2021 03:04:16] "GET /uploader HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:04:22,807 Extract file initiated
+[]INFO] 2021-03-29 03:04:22,818 Extracted Successfully
+[]INFO] 2021-03-29 03:04:22,860 127.0.0.1 - - [29/Mar/2021 03:04:22] "POST /uploader/extract-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 03:04:22,894 127.0.0.1 - - [29/Mar/2021 03:04:22] "GET /uploader/retrieve-text/1e HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:04:46,167 Extract file initiated
+[]INFO] 2021-03-29 03:04:46,176 Extracted Successfully
+[]INFO] 2021-03-29 03:04:46,214 127.0.0.1 - - [29/Mar/2021 03:04:46] "POST /uploader/extract-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 03:04:46,244 127.0.0.1 - - [29/Mar/2021 03:04:46] "GET /uploader/retrieve-text/2e HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:05:06,594 Extract file initiated
+[]INFO] 2021-03-29 03:05:06,604 Extracted Successfully
+[]INFO] 2021-03-29 03:05:06,641 127.0.0.1 - - [29/Mar/2021 03:05:06] "POST /uploader/extract-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 03:05:06,673 127.0.0.1 - - [29/Mar/2021 03:05:06] "GET /uploader/retrieve-text/3e HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:05:19,576 Extract file initiated
+[]INFO] 2021-03-29 03:05:19,585 Extracted Successfully
+[]INFO] 2021-03-29 03:05:19,621 127.0.0.1 - - [29/Mar/2021 03:05:19] "POST /uploader/extract-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 03:05:19,651 127.0.0.1 - - [29/Mar/2021 03:05:19] "GET /uploader/retrieve-text/4e HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:05:30,789 Extract file initiated
+[]INFO] 2021-03-29 03:05:30,798 Extracted Successfully
+[]INFO] 2021-03-29 03:05:30,834 127.0.0.1 - - [29/Mar/2021 03:05:30] "POST /uploader/extract-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 03:05:30,865 127.0.0.1 - - [29/Mar/2021 03:05:30] "GET /uploader/retrieve-text/5e HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:05:39,714 127.0.0.1 - - [29/Mar/2021 03:05:39] "GET /uploader/retrieve-text/view-all HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:05:56,678  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 03:05:57,160  * Restarting with stat
+[]WARNING] 2021-03-29 03:05:57,661  * Debugger is active!
+[]INFO] 2021-03-29 03:05:57,666  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 03:05:59,818 127.0.0.1 - - [29/Mar/2021 03:05:59] "GET /uploader/retrieve-text/view-all HTTP/1.1" 500 -
+[]INFO] 2021-03-29 03:05:59,870 127.0.0.1 - - [29/Mar/2021 03:05:59] "GET /uploader/retrieve-text/view-all?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:05:59,871 127.0.0.1 - - [29/Mar/2021 03:05:59] "GET /uploader/retrieve-text/view-all?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:05:59,872 127.0.0.1 - - [29/Mar/2021 03:05:59] "GET /uploader/retrieve-text/view-all?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:06:00,155 127.0.0.1 - - [29/Mar/2021 03:06:00] "GET /uploader/retrieve-text/view-all?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:06:00,162 127.0.0.1 - - [29/Mar/2021 03:06:00] "GET /uploader/retrieve-text/view-all?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:06:00,207 127.0.0.1 - - [29/Mar/2021 03:06:00] "GET /uploader/retrieve-text/view-all?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:06:11,041  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 03:06:11,340  * Restarting with stat
+[]WARNING] 2021-03-29 03:06:11,786  * Debugger is active!
+[]INFO] 2021-03-29 03:06:11,791  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 03:06:13,512 127.0.0.1 - - [29/Mar/2021 03:06:13] "GET /uploader/retrieve-text/view-all HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:07:57,720  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 03:07:58,236  * Restarting with stat
+[]WARNING] 2021-03-29 03:07:58,668  * Debugger is active!
+[]INFO] 2021-03-29 03:07:58,673  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 03:09:59,126  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 03:09:59,183  * Restarting with stat
+[]WARNING] 2021-03-29 03:09:59,649  * Debugger is active!
+[]INFO] 2021-03-29 03:09:59,653  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 03:10:11,732 127.0.0.1 - - [29/Mar/2021 03:10:11] "GET /uploader/retrieve-text/view-all HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:10:15,517 127.0.0.1 - - [29/Mar/2021 03:10:15] "GET /uploader/retrieve-text/delete-all HTTP/1.1" 500 -
+[]INFO] 2021-03-29 03:10:15,550 127.0.0.1 - - [29/Mar/2021 03:10:15] "GET /uploader/retrieve-text/delete-all?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:10:15,552 127.0.0.1 - - [29/Mar/2021 03:10:15] "GET /uploader/retrieve-text/delete-all?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:10:15,552 127.0.0.1 - - [29/Mar/2021 03:10:15] "GET /uploader/retrieve-text/delete-all?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:10:15,677 127.0.0.1 - - [29/Mar/2021 03:10:15] "GET /uploader/retrieve-text/delete-all?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:10:15,681 127.0.0.1 - - [29/Mar/2021 03:10:15] "GET /uploader/retrieve-text/delete-all?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:10:15,719 127.0.0.1 - - [29/Mar/2021 03:10:15] "GET /uploader/retrieve-text/delete-all?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:10:30,568  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 03:10:30,806  * Restarting with stat
+[]WARNING] 2021-03-29 03:10:31,272  * Debugger is active!
+[]INFO] 2021-03-29 03:10:31,278  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 03:10:32,374 127.0.0.1 - - [29/Mar/2021 03:10:32] "GET /uploader/retrieve-text/delete-all HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:10:48,411 127.0.0.1 - - [29/Mar/2021 03:10:48] "GET /uploader HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:10:56,814 Extract file initiated
+[]INFO] 2021-03-29 03:10:56,823 Extracted Successfully
+[]INFO] 2021-03-29 03:10:56,872 127.0.0.1 - - [29/Mar/2021 03:10:56] "POST /uploader/extract-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 03:10:56,902 127.0.0.1 - - [29/Mar/2021 03:10:56] "GET /uploader/retrieve-text/1e HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:11:03,047 Extract file initiated
+[]INFO] 2021-03-29 03:11:03,056 Extracted Successfully
+[]INFO] 2021-03-29 03:11:03,109 127.0.0.1 - - [29/Mar/2021 03:11:03] "POST /uploader/extract-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 03:11:03,138 127.0.0.1 - - [29/Mar/2021 03:11:03] "GET /uploader/retrieve-text/2e HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:11:13,379 Extract file initiated
+[]INFO] 2021-03-29 03:11:13,387 Extracted Successfully
+[]INFO] 2021-03-29 03:11:13,417 127.0.0.1 - - [29/Mar/2021 03:11:13] "POST /uploader/extract-file HTTP/1.1" 302 -
+[]INFO] 2021-03-29 03:11:13,449 127.0.0.1 - - [29/Mar/2021 03:11:13] "GET /uploader/retrieve-text/3e HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:11:29,879  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 03:11:30,411  * Restarting with stat
+[]WARNING] 2021-03-29 03:11:30,863  * Debugger is active!
+[]INFO] 2021-03-29 03:11:30,868  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 03:12:16,143  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 03:12:16,195  * Restarting with stat
+[]WARNING] 2021-03-29 03:12:16,663  * Debugger is active!
+[]INFO] 2021-03-29 03:12:16,668  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 03:12:17,699  * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+[]INFO] 2021-03-29 03:12:17,762  * Restarting with stat
+[]WARNING] 2021-03-29 03:12:18,222  * Debugger is active!
+[]INFO] 2021-03-29 03:12:18,226  * Debugger PIN: 203-970-524
+[]INFO] 2021-03-29 03:12:44,245 127.0.0.1 - - [29/Mar/2021 03:12:44] "GET /uploader/retrieve-filejson/testnew HTTP/1.1" 500 -
+[]INFO] 2021-03-29 03:12:44,309 127.0.0.1 - - [29/Mar/2021 03:12:44] "GET /uploader/retrieve-filejson/testnew?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:12:44,310 127.0.0.1 - - [29/Mar/2021 03:12:44] "GET /uploader/retrieve-filejson/testnew?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:12:44,310 127.0.0.1 - - [29/Mar/2021 03:12:44] "GET /uploader/retrieve-filejson/testnew?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:12:44,591 127.0.0.1 - - [29/Mar/2021 03:12:44] "GET /uploader/retrieve-filejson/testnew?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:12:44,597 127.0.0.1 - - [29/Mar/2021 03:12:44] "GET /uploader/retrieve-filejson/testnew?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:12:44,641 127.0.0.1 - - [29/Mar/2021 03:12:44] "GET /uploader/retrieve-filejson/testnew?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:12:47,824 127.0.0.1 - - [29/Mar/2021 03:12:47] "GET /uploader/retrieve-filejson/1 HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:13:07,037 127.0.0.1 - - [29/Mar/2021 03:13:07] "GET /uploader/retrieve-filejson/2 HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:13:09,633 127.0.0.1 - - [29/Mar/2021 03:13:09] "GET /uploader/retrieve-filejson/3 HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:13:12,046 127.0.0.1 - - [29/Mar/2021 03:13:12] "GET /uploader/retrieve-filejson/4 HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:13:14,085 127.0.0.1 - - [29/Mar/2021 03:13:14] "GET /uploader/retrieve-filejson/5 HTTP/1.1" 500 -
+[]INFO] 2021-03-29 03:13:14,121 127.0.0.1 - - [29/Mar/2021 03:13:14] "GET /uploader/retrieve-filejson/5?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:13:14,124 127.0.0.1 - - [29/Mar/2021 03:13:14] "GET /uploader/retrieve-filejson/5?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:13:14,124 127.0.0.1 - - [29/Mar/2021 03:13:14] "GET /uploader/retrieve-filejson/5?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:13:14,243 127.0.0.1 - - [29/Mar/2021 03:13:14] "GET /uploader/retrieve-filejson/5?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:13:14,249 127.0.0.1 - - [29/Mar/2021 03:13:14] "GET /uploader/retrieve-filejson/5?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:13:14,285 127.0.0.1 - - [29/Mar/2021 03:13:14] "GET /uploader/retrieve-filejson/5?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[]INFO] 2021-03-29 03:14:33,881 127.0.0.1 - - [29/Mar/2021 03:14:33] "GET /uploader HTTP/1.1" 200 -

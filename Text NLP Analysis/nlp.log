@@ -1,0 +1,940 @@
+2021-03-28 23:29:58,348 INFO Sentiment analyzing initiated
+2021-03-28 23:29:58,348 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:29:58,473 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:29:58,481 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:29:58,622 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:29:58,889 INFO Sentiment analyzed
+2021-03-28 23:29:58,890 INFO Entities analyzing initiated
+2021-03-28 23:29:58,890 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:29:58,999 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:29:59,001 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:29:59,103 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:29:59,234 INFO Entities analyzed
+2021-03-28 23:29:59,234 INFO Entities-sentiments analyzing initiated
+2021-03-28 23:29:59,234 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:29:59,357 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:29:59,358 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:29:59,457 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:29:59,711 INFO Entities sentiments analyzed
+2021-03-28 23:29:59,711 INFO content classification analyzing initiated
+2021-03-28 23:30:44,046 INFO Sentiment analyzing initiated
+2021-03-28 23:30:44,046 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:30:44,186 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:30:44,194 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:30:44,315 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:30:44,427 INFO Sentiment analyzed
+2021-03-28 23:30:44,427 INFO Entities analyzing initiated
+2021-03-28 23:30:44,427 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:30:44,546 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:30:44,547 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:30:44,662 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:30:44,999 INFO Entities analyzed
+2021-03-28 23:30:44,999 INFO Entities-sentiments analyzing initiated
+2021-03-28 23:30:44,999 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:30:45,123 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:30:45,124 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:30:45,235 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:30:45,376 INFO Entities sentiments analyzed
+2021-03-28 23:30:45,376 INFO content classification analyzing initiated
+2021-03-28 23:35:46,951 INFO Sentiment analyzing initiated
+2021-03-28 23:35:46,951 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:35:47,085 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:35:47,091 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:35:47,227 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:35:47,480 INFO Sentiment analyzed
+2021-03-28 23:35:47,480 INFO Entities analyzing initiated
+2021-03-28 23:35:47,480 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:35:47,599 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:35:47,601 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:35:47,708 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:35:47,993 INFO Entities analyzed
+2021-03-28 23:35:47,994 INFO Entities-sentiments analyzing initiated
+2021-03-28 23:35:47,994 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:35:48,113 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:35:48,115 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:35:48,225 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:35:48,333 INFO Entities sentiments analyzed
+2021-03-28 23:35:48,334 INFO content classification analyzing initiated
+2021-03-28 23:35:48,334 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:35:48,442 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:35:48,443 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:35:48,556 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:35:48,692 INFO content classification analyzed
+2021-03-28 23:40:48,827 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-28 23:41:01,296 INFO 127.0.0.1 - - [28/Mar/2021 23:41:01] "GET / HTTP/1.1" 302 -
+2021-03-28 23:41:01,306 INFO 127.0.0.1 - - [28/Mar/2021 23:41:01] "GET /nlp HTTP/1.1" 200 -
+2021-03-28 23:41:01,739 INFO 127.0.0.1 - - [28/Mar/2021 23:41:01] "GET /favicon.ico HTTP/1.1" 404 -
+2021-03-28 23:41:42,020 INFO Sentiment analyzing initiated
+2021-03-28 23:41:42,020 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:41:42,168 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:41:42,177 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:41:42,313 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:41:42,546 INFO Sentiment analyzed
+2021-03-28 23:41:42,547 INFO 127.0.0.1 - - [28/Mar/2021 23:41:42] "GET /nlp/sentiment/why,%20hello%20there!!! HTTP/1.1" 200 -
+2021-03-28 23:42:01,753 ERROR Exception on /nlp/entity/why, hello there John Doe!!! [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask_restful/__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "nlpanalysis_api.py", line 47, in analyze_entity
+    ret["Entities"] = nlp.analyze_entitis(text)
+AttributeError: module 'nlpanalysis' has no attribute 'analyze_entitis'
+2021-03-28 23:42:01,757 INFO 127.0.0.1 - - [28/Mar/2021 23:42:01] "GET /nlp/entity/why,%20hello%20there%20John%20Doe!!! HTTP/1.1" 500 -
+2021-03-28 23:42:26,259 ERROR Exception on /nlp/entity/a [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask_restful/__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "nlpanalysis_api.py", line 47, in analyze_entity
+    ret["Entities"] = nlp.analyze_entitis(text)
+AttributeError: module 'nlpanalysis' has no attribute 'analyze_entitis'
+2021-03-28 23:42:26,260 INFO 127.0.0.1 - - [28/Mar/2021 23:42:26] "GET /nlp/entity/a HTTP/1.1" 500 -
+2021-03-28 23:42:58,933 ERROR Exception on /nlp/entity/a [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask_restful/__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "nlpanalysis_api.py", line 47, in analyze_entity
+    ret["Entities"] = nlp.analyze_entities(text)
+AttributeError: module 'nlpanalysis' has no attribute 'analyze_entitis'
+2021-03-28 23:42:58,934 INFO 127.0.0.1 - - [28/Mar/2021 23:42:58] "GET /nlp/entity/a HTTP/1.1" 500 -
+2021-03-28 23:43:01,367 ERROR Exception on /nlp/entity/a [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask_restful/__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "nlpanalysis_api.py", line 47, in analyze_entity
+    ret["Entities"] = nlp.analyze_entities(text)
+AttributeError: module 'nlpanalysis' has no attribute 'analyze_entitis'
+2021-03-28 23:43:01,371 INFO 127.0.0.1 - - [28/Mar/2021 23:43:01] "GET /nlp/entity/a HTTP/1.1" 500 -
+2021-03-28 23:43:03,181 ERROR Exception on /nlp/entity/a [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask_restful/__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "nlpanalysis_api.py", line 47, in analyze_entity
+    ret["Entities"] = nlp.analyze_entities(text)
+AttributeError: module 'nlpanalysis' has no attribute 'analyze_entitis'
+2021-03-28 23:43:03,182 INFO 127.0.0.1 - - [28/Mar/2021 23:43:03] "GET /nlp/entity/a HTTP/1.1" 500 -
+2021-03-28 23:43:25,003 INFO 127.0.0.1 - - [28/Mar/2021 23:43:25] "GET / HTTP/1.1" 302 -
+2021-03-28 23:43:25,006 INFO 127.0.0.1 - - [28/Mar/2021 23:43:25] "GET /nlp HTTP/1.1" 200 -
+2021-03-28 23:43:36,952 INFO Sentiment analyzing initiated
+2021-03-28 23:43:36,953 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:43:37,077 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:43:37,078 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:43:37,198 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:43:37,311 INFO Sentiment analyzed
+2021-03-28 23:43:37,312 INFO 127.0.0.1 - - [28/Mar/2021 23:43:37] "GET /nlp/sentiment/why,%20hello%20there%20John%20Doe!!! HTTP/1.1" 200 -
+2021-03-28 23:43:46,828 ERROR Exception on /nlp/entity/why, hello there John Doe!!! [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask_restful/__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "nlpanalysis_api.py", line 47, in analyze_entity
+    ret["Entities"] = nlp.analyze_entities(text)
+AttributeError: module 'nlpanalysis' has no attribute 'analyze_entitis'
+2021-03-28 23:43:46,828 INFO 127.0.0.1 - - [28/Mar/2021 23:43:46] "GET /nlp/entity/why,%20hello%20there%20John%20Doe!!! HTTP/1.1" 500 -
+2021-03-28 23:44:47,376 ERROR Exception on /nlp/entity/why, hello there John Doe!!! [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask_restful/__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "nlpanalysis_api.py", line 47, in analyze_entity
+    ret["Entities"] = nlp.analyze_entities(text)
+AttributeError: module 'nlpanalysis' has no attribute 'analyze_entitis'
+2021-03-28 23:44:47,376 INFO 127.0.0.1 - - [28/Mar/2021 23:44:47] "GET /nlp/entity/why,%20hello%20there%20John%20Doe!!! HTTP/1.1" 500 -
+2021-03-28 23:44:55,160 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-28 23:44:58,172 INFO Entities analyzing initiated
+2021-03-28 23:44:58,172 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:44:58,304 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:44:58,311 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:44:58,422 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:44:58,531 INFO Entities analyzed
+2021-03-28 23:44:58,532 INFO 127.0.0.1 - - [28/Mar/2021 23:44:58] "GET /nlp/entity/why,%20hello%20there%20John%20Doe!!! HTTP/1.1" 200 -
+2021-03-28 23:45:39,376 INFO Entities-sentiments analyzing initiated
+2021-03-28 23:45:39,376 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:45:39,502 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:45:39,503 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:45:39,609 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:45:39,967 INFO Entities sentiments analyzed
+2021-03-28 23:45:39,967 INFO 127.0.0.1 - - [28/Mar/2021 23:45:39] "GET /nlp/entitysentiment/Jeremy%20Pruitt%20was%20fired!!! HTTP/1.1" 200 -
+2021-03-28 23:46:31,000 INFO 127.0.0.1 - - [28/Mar/2021 23:46:31] "GET /nlp/classify_content HTTP/1.1" 404 -
+2021-03-28 23:46:37,690 INFO 127.0.0.1 - - [28/Mar/2021 23:46:37] "GET /nlp/classify_content/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20iipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all.%20What%20happened.%20This%20is%20a%20random%20text%20to%20test%20functionailites!!! HTTP/1.1" 404 -
+2021-03-28 23:46:54,898 INFO 127.0.0.1 - - [28/Mar/2021 23:46:54] "GET /nlp/classify_content/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20iipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all.%20What%20happened.%20This%20is%20a%20random%20text%20to%20test%20functionailites!!! HTTP/1.1" 404 -
+2021-03-28 23:47:20,684 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-28 23:47:21,522 INFO 127.0.0.1 - - [28/Mar/2021 23:47:21] "GET /nlp/classify_content/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20iipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all.%20What%20happened.%20This%20is%20a%20random%20text%20to%20test%20functionailites!!! HTTP/1.1" 404 -
+2021-03-28 23:47:35,045 INFO 127.0.0.1 - - [28/Mar/2021 23:47:35] "GET /nlp/classify_content/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20iipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all.%20What%20happened.%20This%20is%20a%20random%20text%20 HTTP/1.1" 404 -
+2021-03-28 23:48:04,298 INFO 127.0.0.1 - - [28/Mar/2021 23:48:04] "GET /nlp/classify_content/Jeremy%20Pruitt%20was%20fired!!! HTTP/1.1" 404 -
+2021-03-28 23:48:59,820 INFO 127.0.0.1 - - [28/Mar/2021 23:48:59] "GET /nlp/classify_content/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20iipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all.%20What%20happened.%20This%20is%20a%20random%20text%20 HTTP/1.1" 404 -
+2021-03-28 23:49:27,815 INFO 127.0.0.1 - - [28/Mar/2021 23:49:27] "GET /nlp/classify_content/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20ipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all.%20What%20happened. HTTP/1.1" 404 -
+2021-03-28 23:49:47,193 INFO content classification analyzing initiated
+2021-03-28 23:49:47,193 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:49:47,328 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:49:47,342 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:49:47,470 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:49:47,776 INFO content classification analyzed
+2021-03-28 23:49:47,777 INFO 127.0.0.1 - - [28/Mar/2021 23:49:47] "GET /nlp/classifycontent/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20ipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all.%20What%20happened. HTTP/1.1" 200 -
+2021-03-28 23:52:13,422 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-28 23:52:20,811 INFO content classification analyzing initiated
+2021-03-28 23:52:20,812 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:52:20,951 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:52:20,959 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:52:21,077 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:52:21,293 INFO content classification analyzed
+2021-03-28 23:52:21,294 INFO 127.0.0.1 - - [28/Mar/2021 23:52:21] "GET /nlp/classifycontent/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20ipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all.%20What%20happened. HTTP/1.1" 200 -
+2021-03-28 23:52:32,502 INFO Sentiment analyzing initiated
+2021-03-28 23:52:32,502 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:52:32,640 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:52:32,641 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:52:32,758 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:52:32,880 INFO Sentiment analyzed
+2021-03-28 23:52:32,880 INFO 127.0.0.1 - - [28/Mar/2021 23:52:32] "GET /nlp/sentiment/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20ipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all.%20What%20happened. HTTP/1.1" 200 -
+2021-03-28 23:53:44,403 INFO Sentiment analyzing initiated
+2021-03-28 23:53:44,403 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:53:44,526 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:53:44,528 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:53:44,639 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:53:44,939 INFO Sentiment analyzed
+2021-03-28 23:53:44,940 INFO 127.0.0.1 - - [28/Mar/2021 23:53:44] "GET /nlp/sentiment/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20ipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all.%20What%20happened. HTTP/1.1" 200 -
+2021-03-28 23:56:50,122 INFO Sentiment analyzing initiated
+2021-03-28 23:56:50,122 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:56:50,242 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:56:50,244 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:56:50,378 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:56:50,685 INFO Sentiment analyzed
+2021-03-28 23:56:50,686 INFO 127.0.0.1 - - [28/Mar/2021 23:56:50] "GET /nlp/sentiment/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20ipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all.%20What%20happened. HTTP/1.1" 200 -
+2021-03-28 23:56:53,351 INFO Sentiment analyzing initiated
+2021-03-28 23:56:53,351 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:56:53,474 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:56:53,476 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:56:53,593 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:56:53,860 INFO Sentiment analyzed
+2021-03-28 23:56:53,861 INFO 127.0.0.1 - - [28/Mar/2021 23:56:53] "GET /nlp/sentiment/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20ipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all.%20What%20happened. HTTP/1.1" 200 -
+2021-03-28 23:57:25,797 INFO Sentiment analyzing initiated
+2021-03-28 23:57:25,798 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:57:25,913 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:57:25,915 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:57:26,023 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:57:26,314 INFO Sentiment analyzed
+2021-03-28 23:57:26,314 INFO 127.0.0.1 - - [28/Mar/2021 23:57:26] "GET /nlp/sentiment/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20ipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all. HTTP/1.1" 200 -
+2021-03-28 23:57:32,321 INFO Entities analyzing initiated
+2021-03-28 23:57:32,321 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-28 23:57:32,444 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-28 23:57:32,446 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-28 23:57:32,560 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-28 23:57:32,706 INFO Entities analyzed
+2021-03-28 23:57:32,707 INFO 127.0.0.1 - - [28/Mar/2021 23:57:32] "GET /nlp/entity/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20ipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all. HTTP/1.1" 200 -
+2021-03-28 23:58:00,376 INFO content classification analyzing initiated
+2021-03-28 23:58:00,376 INFO 127.0.0.1 - - [28/Mar/2021 23:58:00] "GET /nlp/classifycontent/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20ipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all. HTTP/1.1" 200 -
+2021-03-28 23:58:48,302 INFO content classification analyzing initiated
+2021-03-28 23:58:48,304 INFO 127.0.0.1 - - [28/Mar/2021 23:58:48] "GET /nlp/classifycontent/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20ipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all. HTTP/1.1" 200 -
+2021-03-28 23:59:14,516 INFO content classification analyzing initiated
+2021-03-28 23:59:14,517 INFO 127.0.0.1 - - [28/Mar/2021 23:59:14] "GET /nlp/classifycontent/Jeremy%20Pruitt%20was%20fired%20and%20then%20lorem%20ipsum%20jumps%20over%20a%20light%20brown%20fox%20not%20good%20at%20all. HTTP/1.1" 200 -
+2021-03-29 00:33:28,851 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 00:34:13,477 INFO 127.0.0.1 - - [29/Mar/2021 00:34:13] "GET / HTTP/1.1" 302 -
+2021-03-29 00:34:13,482 INFO 127.0.0.1 - - [29/Mar/2021 00:34:13] "GET /nlp HTTP/1.1" 200 -
+2021-03-29 00:34:40,582 INFO Sentiment analyzing initiated
+2021-03-29 00:34:40,582 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 00:34:40,711 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 00:34:40,721 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 00:34:40,866 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 00:34:40,986 INFO Sentiment analyzed
+2021-03-29 00:34:40,989 INFO 127.0.0.1 - - [29/Mar/2021 00:34:40] "GET /nlp/sentiment/john%20doesn't%20like%20his%20dog HTTP/1.1" 200 -
+2021-03-29 00:34:48,838 INFO Entities analyzing initiated
+2021-03-29 00:34:48,838 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 00:34:48,951 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 00:34:48,952 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 00:34:49,060 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 00:34:49,295 INFO Entities analyzed
+2021-03-29 00:34:49,298 INFO 127.0.0.1 - - [29/Mar/2021 00:34:49] "GET /nlp/entity/john%20doesn't%20like%20his%20dog HTTP/1.1" 200 -
+2021-03-29 00:36:07,094 INFO Entities-sentiments analyzing initiated
+2021-03-29 00:36:07,094 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 00:36:07,218 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 00:36:07,219 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 00:36:07,331 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 00:36:07,482 INFO Entities sentiments analyzed
+2021-03-29 00:36:07,485 INFO 127.0.0.1 - - [29/Mar/2021 00:36:07] "GET /nlp/entitysentiment/john%20doesn't%20like%20his%20dog HTTP/1.1" 200 -
+2021-03-29 00:36:38,649 INFO content classification analyzing initiated
+2021-03-29 00:36:38,649 INFO Not enough text
+2021-03-29 00:36:38,650 INFO 127.0.0.1 - - [29/Mar/2021 00:36:38] "GET /nlp/classifycontent/john%20doesn't%20like%20his%20dog HTTP/1.1" 200 -
+2021-03-29 00:37:18,961 INFO content classification analyzing initiated
+2021-03-29 00:37:18,961 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 00:37:19,075 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 00:37:19,077 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 00:37:19,201 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 00:37:19,328 INFO content classification analyzed
+2021-03-29 00:37:19,331 INFO 127.0.0.1 - - [29/Mar/2021 00:37:19] "GET /nlp/classifycontent/john%20doesn't%20like%20his%20dog%20but%20his%20girlfriend%20asked%20him%20to%20keep%20it.%20So%20he%20has%20to%20endure%20the%20pain%20unevidently. HTTP/1.1" 200 -
+2021-03-29 00:38:48,135 INFO content classification analyzing initiated
+2021-03-29 00:38:48,135 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 00:38:48,262 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 00:38:48,264 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 00:38:48,380 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 00:38:48,709 INFO content classification analyzed
+2021-03-29 00:38:48,712 INFO 127.0.0.1 - - [29/Mar/2021 00:38:48] "GET /nlp/classifycontent/john%20doesn't%20like%20his%20dog%20but%20his%20girlfriend%20asked%20him%20to%20keep%20it.%20So%20he%20has%20to%20endure%20the%20pain%20unevidently.%20Although%20he's%20not%20sure%20how%20long%20he%20can%20keep%20it%20with%20him,%20maybe%20he%20should've%20asked%20his%20girlfriend%20to%20keep%20it%20since%20she%20likes%20it%20so%20much.%20John%20contemplates%20his%20life%20and%20when%20he%20decided%20to%20text%20his%20girlfried,%20his%20girlfriend%20texts%20him%20with%20%22let's%20break%20up%22! HTTP/1.1" 200 -
+2021-03-29 00:39:06,172 INFO content classification analyzing initiated
+2021-03-29 00:39:06,172 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 00:39:06,311 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 00:39:06,313 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 00:39:06,425 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 00:39:06,730 INFO content classification analyzed
+2021-03-29 00:39:06,734 INFO 127.0.0.1 - - [29/Mar/2021 00:39:06] "GET /nlp/classifycontent/john%20doesn't%20like%20his%20dog%20but%20his%20girlfriend%20asked%20him%20to%20keep%20it.%20So%20he%20has%20to%20endure%20the%20pain%20unevidently.%20Although%20he's%20not%20sure%20how%20long%20he%20can%20keep%20it%20with%20him,%20maybe%20he%20should've%20asked%20his%20girlfriend%20to%20keep%20it%20since%20she%20likes%20it%20so%20much.%20John%20contemplates%20his%20life%20and%20when%20he%20decided%20to%20text%20his%20girlfried,%20his%20girlfriend%20texts%20him%20with%20break%20up HTTP/1.1" 200 -
+2021-03-29 00:39:37,203 INFO content classification analyzing initiated
+2021-03-29 00:39:37,203 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 00:39:37,334 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 00:39:37,336 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 00:39:37,471 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 00:39:37,601 INFO content classification analyzed
+2021-03-29 00:39:37,605 INFO 127.0.0.1 - - [29/Mar/2021 00:39:37] "GET /nlp/classifycontent/john%20doesn't%20like%20his%20dog%20but%20his%20girlfriend%20asked%20him%20to%20keep%20it.%20So%20he%20has%20to%20endure%20the%20pain%20unevidently.%20Although%20he's%20not%20sure%20how%20long%20he%20can%20keep%20it%20with%20him,%20maybe%20he%20should've%20asked%20his%20girlfriend%20to%20keep%20it%20since%20she%20likes%20it%20so%20much.%20John%20contemplates%20his%20life%20and%20when%20he%20decided%20to%20text%20his%20girlfried HTTP/1.1" 200 -
+2021-03-29 00:40:05,291 INFO content classification analyzing initiated
+2021-03-29 00:40:05,291 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 00:40:05,405 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 00:40:05,407 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 00:40:05,519 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 00:40:05,774 INFO content classification analyzed
+2021-03-29 00:40:05,776 INFO 127.0.0.1 - - [29/Mar/2021 00:40:05] "GET /nlp/classifycontent/john%20doesn't%20like%20his%20dog%20but%20his%20girlfriend%20asked%20him%20to%20keep%20it.%20So%20he%20has%20to%20endure%20the%20pain%20unevidently.%20Although%20he's%20not%20sure%20how%20long%20he%20can%20keep%20it%20with%20him,%20maybe%20he%20should've%20asked%20his%20girlfriend%20to%20keep%20it HTTP/1.1" 200 -
+2021-03-29 00:45:30,293 INFO 127.0.0.1 - - [29/Mar/2021 00:45:30] "GET / HTTP/1.1" 302 -
+2021-03-29 00:45:30,297 INFO 127.0.0.1 - - [29/Mar/2021 00:45:30] "GET /nlp HTTP/1.1" 200 -
+2021-03-29 00:45:57,157 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 00:46:00,740 INFO 127.0.0.1 - - [29/Mar/2021 00:46:00] "GET /nlp HTTP/1.1" 200 -
+2021-03-29 00:46:10,747 INFO 127.0.0.1 - - [29/Mar/2021 00:46:10] "POST /nlp/sentiment HTTP/1.1" 405 -
+2021-03-29 00:56:57,520 INFO 127.0.0.1 - - [29/Mar/2021 00:56:57] "GET /nlp/sentiment/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 404 -
+2021-03-29 00:57:26,303 INFO 127.0.0.1 - - [29/Mar/2021 00:57:26] "GET /nlp/sentiment/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 404 -
+2021-03-29 00:57:27,495 INFO 127.0.0.1 - - [29/Mar/2021 00:57:27] "GET /nlp/sentiment/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 404 -
+2021-03-29 00:57:29,264 INFO 127.0.0.1 - - [29/Mar/2021 00:57:29] "GET /nlp/sentiment/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 404 -
+2021-03-29 00:57:48,497 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 00:57:49,624 INFO Sentiment analyzing initiated
+2021-03-29 00:57:49,624 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 00:57:49,758 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 00:57:49,766 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 00:57:49,910 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 00:57:50,195 INFO Sentiment analyzed
+2021-03-29 00:57:50,199 INFO 127.0.0.1 - - [29/Mar/2021 00:57:50] "GET /nlp/sentiment/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 00:57:59,633 INFO 127.0.0.1 - - [29/Mar/2021 00:57:59] "GET / HTTP/1.1" 302 -
+2021-03-29 00:57:59,637 INFO 127.0.0.1 - - [29/Mar/2021 00:57:59] "GET /nlp HTTP/1.1" 200 -
+2021-03-29 03:15:21,038 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:15:32,972 INFO 127.0.0.1 - - [29/Mar/2021 03:15:32] "GET / HTTP/1.1" 302 -
+2021-03-29 03:15:32,976 INFO 127.0.0.1 - - [29/Mar/2021 03:15:32] "GET /nlp HTTP/1.1" 200 -
+2021-03-29 03:15:58,648 INFO Sentiment analyzing initiated
+2021-03-29 03:15:58,649 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:15:58,772 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:15:58,781 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:15:58,923 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:15:59,197 INFO Sentiment analyzed
+2021-03-29 03:15:59,200 INFO 127.0.0.1 - - [29/Mar/2021 03:15:59] "GET /nlp/retrieve-sentiment/what%20does%20the%20fox%20says HTTP/1.1" 200 -
+2021-03-29 03:16:26,087 INFO Sentiment analyzing initiated
+2021-03-29 03:16:26,087 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:16:26,206 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:16:26,207 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:16:26,323 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:16:26,567 INFO Sentiment analyzed
+2021-03-29 03:16:26,569 INFO 127.0.0.1 - - [29/Mar/2021 03:16:26] "GET /nlp/retrieve-sentiment/this%20is%20a%20very%20tiring%20day HTTP/1.1" 200 -
+2021-03-29 03:16:50,524 INFO Entities analyzing initiated
+2021-03-29 03:16:50,524 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:16:50,636 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:16:50,638 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:16:50,751 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:16:51,011 INFO Entities analyzed
+2021-03-29 03:16:51,012 INFO Entities found:
+2021-03-29 03:16:51,015 INFO 127.0.0.1 - - [29/Mar/2021 03:16:51] "GET /nlp/retrieve-entity/this%20is%20a%20very%20tiring%20day HTTP/1.1" 200 -
+2021-03-29 03:17:55,582 INFO Entities analyzing initiated
+2021-03-29 03:17:55,582 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:17:55,693 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:17:55,694 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:17:55,816 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:17:55,930 INFO Entities analyzed
+2021-03-29 03:17:55,930 INFO Entities found:
+2021-03-29 03:17:55,931 INFO 	brown fox
+2021-03-29 03:17:55,931 INFO 	dog
+2021-03-29 03:17:55,934 INFO 127.0.0.1 - - [29/Mar/2021 03:17:55] "GET /nlp/retrieve-entity/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 03:19:10,458 INFO Entities analyzing initiated
+2021-03-29 03:19:10,458 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:19:10,581 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:19:10,582 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:19:10,710 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:19:10,820 INFO Entities analyzed
+2021-03-29 03:19:10,820 INFO Entities found:
+2021-03-29 03:19:10,821 INFO 	brown fox
+2021-03-29 03:19:10,821 INFO 	dog
+2021-03-29 03:19:10,824 INFO 127.0.0.1 - - [29/Mar/2021 03:19:10] "GET /nlp/retrieve-entity/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 03:20:29,805 INFO Entities analyzing initiated
+2021-03-29 03:20:29,806 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:20:29,936 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:20:29,937 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:20:30,049 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:20:30,188 INFO Entities analyzed
+2021-03-29 03:20:30,188 INFO Entities found:
+2021-03-29 03:20:30,188 INFO 	brown fox
+2021-03-29 03:20:30,188 INFO 	dog
+2021-03-29 03:20:30,192 INFO 127.0.0.1 - - [29/Mar/2021 03:20:30] "GET /nlp/retrieve-entity/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 03:20:37,805 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:20:39,295 INFO Entities analyzing initiated
+2021-03-29 03:20:39,296 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:20:39,430 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:20:39,437 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:20:39,551 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:20:39,651 INFO Entities analyzed
+2021-03-29 03:20:39,651 INFO Entities found:
+2021-03-29 03:20:39,651 ERROR Exception on /nlp/retrieve-entity/a quick brown fox jumps over a lazy dog [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask_restful/__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "nlpanalysis_api.py", line 36, in analyze_entities
+    res["Entities"] = nlp.returnEntities(text)
+  File "/Users/primnp/Desktop/news-analyzer-primnp/Text NLP Analysis/nlpanalysis.py", line 53, in returnEntities
+    logging.info("\t" + res)
+TypeError: can only concatenate str (not "dict") to str
+2021-03-29 03:20:39,656 INFO 127.0.0.1 - - [29/Mar/2021 03:20:39] "GET /nlp/retrieve-entity/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 500 -
+2021-03-29 03:21:15,856 INFO Entities analyzing initiated
+2021-03-29 03:21:15,856 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:21:15,986 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:21:15,987 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:21:16,126 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:21:16,364 INFO Entities analyzed
+2021-03-29 03:21:16,364 INFO Entities found:
+2021-03-29 03:21:16,365 ERROR Exception on /nlp/retrieve-entity/a quick brown fox jumps over a lazy dog [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask_restful/__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "nlpanalysis_api.py", line 36, in analyze_entities
+    res["Entities"] = nlp.returnEntities(text)
+  File "/Users/primnp/Desktop/news-analyzer-primnp/Text NLP Analysis/nlpanalysis.py", line 53, in returnEntities
+    for res in results:
+TypeError: can only concatenate str (not "dict") to str
+2021-03-29 03:21:16,365 INFO 127.0.0.1 - - [29/Mar/2021 03:21:16] "GET /nlp/retrieve-entity/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 500 -
+2021-03-29 03:21:23,655 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:21:24,700 INFO Entities analyzing initiated
+2021-03-29 03:21:24,701 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:21:24,824 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:21:24,830 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:21:24,937 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:21:25,052 INFO Entities analyzed
+2021-03-29 03:21:25,052 INFO Entities found:
+2021-03-29 03:21:25,053 ERROR Exception on /nlp/retrieve-entity/a quick brown fox jumps over a lazy dog [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask_restful/__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "nlpanalysis_api.py", line 36, in analyze_entities
+    res["Entities"] = nlp.returnEntities(text)
+  File "/Users/primnp/Desktop/news-analyzer-primnp/Text NLP Analysis/nlpanalysis.py", line 54, in returnEntities
+    logging.info("\t" + res)
+TypeError: can only concatenate str (not "dict") to str
+2021-03-29 03:21:25,055 INFO 127.0.0.1 - - [29/Mar/2021 03:21:25] "GET /nlp/retrieve-entity/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 500 -
+2021-03-29 03:22:55,546 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:22:59,138 INFO Entities analyzing initiated
+2021-03-29 03:22:59,138 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:22:59,270 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:22:59,278 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:22:59,397 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:22:59,503 INFO Entities analyzed
+2021-03-29 03:22:59,503 INFO Entities found:
+2021-03-29 03:22:59,503 INFO 	brown fox
+2021-03-29 03:22:59,503 INFO 	dog
+2021-03-29 03:22:59,507 INFO 127.0.0.1 - - [29/Mar/2021 03:22:59] "GET /nlp/retrieve-entity/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 03:23:59,147 INFO Entities analyzing initiated
+2021-03-29 03:23:59,148 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:23:59,558 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:23:59,559 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:23:59,791 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:24:00,025 INFO Entities analyzed
+2021-03-29 03:24:00,025 INFO Entities found:
+2021-03-29 03:24:00,025 INFO 	brown fox
+2021-03-29 03:24:00,026 INFO 	dog
+2021-03-29 03:24:00,027 INFO 127.0.0.1 - - [29/Mar/2021 03:24:00] "GET /nlp/retrieve-entity/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 03:24:07,568 INFO Sentiment analyzing initiated
+2021-03-29 03:24:07,568 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:24:07,684 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:24:07,686 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:24:07,800 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:24:07,908 INFO Sentiment analyzed
+2021-03-29 03:24:07,911 INFO 127.0.0.1 - - [29/Mar/2021 03:24:07] "GET /nlp/retrieve-sentiment/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 03:24:24,616 INFO Entities analyzing initiated
+2021-03-29 03:24:24,616 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:24:24,742 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:24:24,744 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:24:24,861 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:24:24,977 INFO Entities analyzed
+2021-03-29 03:24:24,977 INFO Entities found:
+2021-03-29 03:24:24,977 INFO 	brown fox
+2021-03-29 03:24:24,977 INFO 	dog
+2021-03-29 03:24:24,980 INFO 127.0.0.1 - - [29/Mar/2021 03:24:24] "GET /nlp/retrieve-entity/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 03:24:49,942 INFO Sentiment analyzing initiated
+2021-03-29 03:24:49,942 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:24:50,056 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:24:50,058 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:24:50,163 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:24:50,282 INFO Sentiment analyzed
+2021-03-29 03:24:50,285 INFO 127.0.0.1 - - [29/Mar/2021 03:24:50] "GET /nlp/retrieve-sentiment/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 03:25:12,315 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:25:12,882 INFO Sentiment analyzing initiated
+2021-03-29 03:25:12,882 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:25:13,001 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:25:13,007 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:25:13,108 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:25:13,228 INFO Sentiment analyzed
+2021-03-29 03:25:13,230 INFO 127.0.0.1 - - [29/Mar/2021 03:25:13] "GET /nlp/retrieve-sentiment/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 03:25:56,502 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:25:57,446 INFO Sentiment analyzing initiated
+2021-03-29 03:25:57,446 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:25:57,565 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:25:57,571 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:25:57,673 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:25:58,034 INFO Sentiment analyzed
+2021-03-29 03:25:58,038 INFO 127.0.0.1 - - [29/Mar/2021 03:25:58] "GET /nlp/retrieve-sentiment/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 03:26:16,447 INFO Entities-sentiments analyzing initiated
+2021-03-29 03:26:16,447 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:26:16,566 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:26:16,568 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:26:16,678 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:26:16,947 INFO Entities sentiments analyzed
+2021-03-29 03:26:16,950 ERROR Exception on /nlp/retrieve-entity-sentiment/a quick brown fox jumps over a lazy dog [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2130, in make_response
+    " {rv.__class__.__name__}.".format(rv=rv)
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+2021-03-29 03:26:16,952 INFO 127.0.0.1 - - [29/Mar/2021 03:26:16] "GET /nlp/retrieve-entity-sentiment/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 500 -
+2021-03-29 03:26:58,491 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:26:59,258 INFO Entities-sentiments analyzing initiated
+2021-03-29 03:26:59,258 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:26:59,372 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:26:59,378 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:26:59,474 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:26:59,602 INFO Entities sentiments analyzed
+2021-03-29 03:26:59,604 INFO 127.0.0.1 - - [29/Mar/2021 03:26:59] "GET /nlp/retrieve-entity-sentiment/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 03:27:27,661 INFO Entities-sentiments analyzing initiated
+2021-03-29 03:27:27,661 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:27:27,773 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:27:27,774 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:27:27,908 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:27:28,252 INFO Entities sentiments analyzed
+2021-03-29 03:27:28,255 INFO 127.0.0.1 - - [29/Mar/2021 03:27:28] "GET /nlp/retrieve-entity-sentiment/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 03:27:43,203 INFO content classification analyzing initiated
+2021-03-29 03:27:43,203 INFO Not enough text
+2021-03-29 03:27:43,203 ERROR Exception on /nlp/content-classification/a quick brown fox jumps over a lazy dog [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2130, in make_response
+    " {rv.__class__.__name__}.".format(rv=rv)
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+2021-03-29 03:27:43,205 INFO 127.0.0.1 - - [29/Mar/2021 03:27:43] "GET /nlp/content-classification/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 500 -
+2021-03-29 03:28:13,776 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:28:14,796 INFO content classification analyzing initiated
+2021-03-29 03:28:14,796 INFO Not enough text
+2021-03-29 03:28:14,796 INFO 127.0.0.1 - - [29/Mar/2021 03:28:14] "GET /nlp/content-classification/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog HTTP/1.1" 200 -
+2021-03-29 03:28:44,375 INFO content classification analyzing initiated
+2021-03-29 03:28:44,375 INFO Not enough text
+2021-03-29 03:28:44,375 INFO 127.0.0.1 - - [29/Mar/2021 03:28:44] "GET /nlp/content-classification/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously HTTP/1.1" 200 -
+2021-03-29 03:29:03,398 INFO content classification analyzing initiated
+2021-03-29 03:29:03,398 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:29:03,533 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:29:03,541 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:29:03,668 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:29:03,819 INFO content classification analyzed
+2021-03-29 03:29:03,822 INFO 127.0.0.1 - - [29/Mar/2021 03:29:03] "GET /nlp/content-classification/a%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously.%20A%20quick%20brown%20fox%20turns%20out%20to%20be%20a%20witch HTTP/1.1" 200 -
+2021-03-29 03:30:29,101 INFO content classification analyzing initiated
+2021-03-29 03:30:29,102 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:30:29,228 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:30:29,230 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:30:29,360 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:30:29,594 INFO content classification analyzed
+2021-03-29 03:30:29,597 INFO 127.0.0.1 - - [29/Mar/2021 03:30:29] "GET /nlp/content-classification/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously.%20People%20start%20to%20wonder%20if%20a%20quick%20brown%20fox%20is%20a%20witch. HTTP/1.1" 200 -
+2021-03-29 03:30:46,256 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:31:02,459 INFO Entities-sentiments analyzing initiated
+2021-03-29 03:31:02,459 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:31:02,597 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:31:02,605 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:31:02,711 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:31:02,990 INFO Entities sentiments analyzed
+2021-03-29 03:31:02,993 ERROR Exception on /nlp/retrieve-entity-sentiment/A quick brown fox jumps over a lazy dog. The lazy dog then disappear mysteriously. People start to wonder if a quick brown fox is a witch. [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2130, in make_response
+    " {rv.__class__.__name__}.".format(rv=rv)
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+2021-03-29 03:31:02,995 INFO 127.0.0.1 - - [29/Mar/2021 03:31:02] "GET /nlp/retrieve-entity-sentiment/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously.%20People%20start%20to%20wonder%20if%20a%20quick%20brown%20fox%20is%20a%20witch. HTTP/1.1" 500 -
+2021-03-29 03:31:37,312 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:31:39,266 INFO Entities-sentiments analyzing initiated
+2021-03-29 03:31:39,266 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:31:39,402 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:31:39,410 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:31:39,544 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:31:39,696 INFO Entities sentiments analyzed
+2021-03-29 03:31:39,700 INFO 127.0.0.1 - - [29/Mar/2021 03:31:39] "GET /nlp/retrieve-entity-sentiment/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously.%20People%20start%20to%20wonder%20if%20a%20quick%20brown%20fox%20is%20a%20witch. HTTP/1.1" 200 -
+2021-03-29 03:31:59,271 INFO Entities analyzing initiated
+2021-03-29 03:31:59,271 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:31:59,406 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:31:59,408 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:31:59,520 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:31:59,670 INFO Entities analyzed
+2021-03-29 03:31:59,670 INFO Entities found:
+2021-03-29 03:31:59,670 INFO 	dog
+2021-03-29 03:31:59,670 INFO 	brown fox
+2021-03-29 03:31:59,670 INFO 	brown fox
+2021-03-29 03:31:59,670 INFO 	People
+2021-03-29 03:31:59,673 INFO 127.0.0.1 - - [29/Mar/2021 03:31:59] "GET /nlp/retrieve-entity/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously.%20People%20start%20to%20wonder%20if%20a%20quick%20brown%20fox%20is%20a%20witch. HTTP/1.1" 200 -
+2021-03-29 03:32:10,132 INFO Sentiment analyzing initiated
+2021-03-29 03:32:10,132 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:32:10,256 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:32:10,258 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:32:10,367 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:32:10,677 INFO Sentiment analyzed
+2021-03-29 03:32:10,681 INFO 127.0.0.1 - - [29/Mar/2021 03:32:10] "GET /nlp/retrieve-sentiment/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously.%20People%20start%20to%20wonder%20if%20a%20quick%20brown%20fox%20is%20a%20witch. HTTP/1.1" 200 -
+2021-03-29 03:32:59,554 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:33:07,987 INFO Entities-sentiments analyzing initiated
+2021-03-29 03:33:07,987 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:33:08,121 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:33:08,129 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:33:08,251 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:33:08,383 INFO Entities sentiments analyzed
+2021-03-29 03:33:08,387 ERROR Exception on /nlp/retrieve-entity-sentiment/A quick brown fox jumps over a lazy dog. The lazy dog then disappear mysteriously. People start to wonder if a quick brown fox is a witch. [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2130, in make_response
+    " {rv.__class__.__name__}.".format(rv=rv)
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+2021-03-29 03:33:08,389 INFO 127.0.0.1 - - [29/Mar/2021 03:33:08] "GET /nlp/retrieve-entity-sentiment/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously.%20People%20start%20to%20wonder%20if%20a%20quick%20brown%20fox%20is%20a%20witch. HTTP/1.1" 500 -
+2021-03-29 03:33:20,627 INFO Entities-sentiments analyzing initiated
+2021-03-29 03:33:20,627 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:33:20,730 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:33:20,731 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:33:20,840 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:33:21,127 INFO Entities sentiments analyzed
+2021-03-29 03:33:21,130 ERROR Exception on /nlp/retrieve-entity-sentiment/A quick brown fox jumps over a lazy dog. The lazy dog then disappear mysteriously. People start to wonder if a quick brown fox is a witch. [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2130, in make_response
+    " {rv.__class__.__name__}.".format(rv=rv)
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+2021-03-29 03:33:21,131 INFO 127.0.0.1 - - [29/Mar/2021 03:33:21] "GET /nlp/retrieve-entity-sentiment/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously.%20People%20start%20to%20wonder%20if%20a%20quick%20brown%20fox%20is%20a%20witch. HTTP/1.1" 500 -
+2021-03-29 03:33:24,862 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:33:26,204 INFO Entities-sentiments analyzing initiated
+2021-03-29 03:33:26,205 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:33:26,329 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:33:26,337 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:33:26,448 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:33:26,763 INFO Entities sentiments analyzed
+2021-03-29 03:33:26,767 INFO 127.0.0.1 - - [29/Mar/2021 03:33:26] "GET /nlp/retrieve-entity-sentiment/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously.%20People%20start%20to%20wonder%20if%20a%20quick%20brown%20fox%20is%20a%20witch. HTTP/1.1" 200 -
+2021-03-29 03:36:17,589 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:36:22,492 INFO Entities-sentiments analyzing initiated
+2021-03-29 03:36:22,498 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:36:22,631 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:36:22,638 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:36:22,760 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:36:22,911 INFO Entities sentiments analyzed
+2021-03-29 03:36:22,915 INFO 127.0.0.1 - - [29/Mar/2021 03:36:22] "GET /nlp/retrieve-entity-sentiment/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously.%20People%20start%20to%20wonder%20if%20a%20quick%20brown%20fox%20is%20a%20witch. HTTP/1.1" 200 -
+2021-03-29 03:36:40,421 INFO content classification analyzing initiated
+2021-03-29 03:36:40,422 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:36:40,535 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:36:40,536 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:36:40,643 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:36:40,909 INFO content classification analyzed
+2021-03-29 03:36:40,913 INFO 127.0.0.1 - - [29/Mar/2021 03:36:40] "GET /nlp/content-classification/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously.%20People%20start%20to%20wonder%20if%20a%20quick%20brown%20fox%20is%20a%20witch. HTTP/1.1" 200 -
+2021-03-29 03:36:50,994 INFO content classification analyzing initiated
+2021-03-29 03:36:50,994 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:36:51,114 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:36:51,115 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:36:51,225 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:36:51,444 ERROR Exception on /nlp/content-classification/A quick brown fox jumps over a lazy dog. [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 73, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/grpc/_channel.py", line 923, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/grpc/_channel.py", line 826, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INVALID_ARGUMENT
+	details = "Invalid text content: too few tokens (words) to process."
+	debug_error_string = "{"created":"@1617003411.443006000","description":"Error received from peer ipv6:[2607:f8b0:4006:804::200a]:443","file":"src/core/lib/surface/call.cc","file_line":1068,"grpc_message":"Invalid text content: too few tokens (words) to process.","grpc_status":3}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask_restful/__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "nlpanalysis_api.py", line 60, in classify_content
+    res["Results"] = nlp.classifyContent(text)
+  File "/Users/primnp/Desktop/news-analyzer-primnp/Text NLP Analysis/nlpanalysis.py", line 83, in classifyContent
+    response = client.classify_text(request={'document': document})
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/cloud/language_v1/services/language_service/client.py", line 614, in classify_text
+    response = rpc(request, retry=retry, timeout=timeout, metadata=metadata,)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/gapic_v1/method.py", line 145, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/retry.py", line 286, in retry_wrapped_func
+    on_error=on_error,
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/retry.py", line 184, in retry_target
+    return target()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 75, in error_remapped_callable
+    six.raise_from(exceptions.from_grpc_error(exc), exc)
+  File "<string>", line 3, in raise_from
+google.api_core.exceptions.InvalidArgument: 400 Invalid text content: too few tokens (words) to process.
+2021-03-29 03:36:51,458 INFO 127.0.0.1 - - [29/Mar/2021 03:36:51] "GET /nlp/content-classification/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog. HTTP/1.1" 500 -
+2021-03-29 03:37:49,978 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:37:50,816 INFO content classification analyzing initiated
+2021-03-29 03:37:50,816 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:37:50,935 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:37:50,940 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:37:51,038 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:37:51,360 ERROR Exception on /nlp/content-classification/A quick brown fox jumps over a lazy dog. [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 73, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/grpc/_channel.py", line 923, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/grpc/_channel.py", line 826, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INVALID_ARGUMENT
+	details = "Invalid text content: too few tokens (words) to process."
+	debug_error_string = "{"created":"@1617003471.359627000","description":"Error received from peer ipv6:[2607:f8b0:4006:819::200a]:443","file":"src/core/lib/surface/call.cc","file_line":1068,"grpc_message":"Invalid text content: too few tokens (words) to process.","grpc_status":3}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask_restful/__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "nlpanalysis_api.py", line 60, in classify_content
+    res["Results"] = nlp.classifyContent(text)
+  File "/Users/primnp/Desktop/news-analyzer-primnp/Text NLP Analysis/nlpanalysis.py", line 83, in classifyContent
+    response = client.classify_text(request={'document': document})
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/cloud/language_v1/services/language_service/client.py", line 614, in classify_text
+    response = rpc(request, retry=retry, timeout=timeout, metadata=metadata,)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/gapic_v1/method.py", line 145, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/retry.py", line 286, in retry_wrapped_func
+    on_error=on_error,
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/retry.py", line 184, in retry_target
+    return target()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 75, in error_remapped_callable
+    six.raise_from(exceptions.from_grpc_error(exc), exc)
+  File "<string>", line 3, in raise_from
+google.api_core.exceptions.InvalidArgument: 400 Invalid text content: too few tokens (words) to process.
+2021-03-29 03:37:51,363 INFO 127.0.0.1 - - [29/Mar/2021 03:37:51] "GET /nlp/content-classification/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog. HTTP/1.1" 500 -
+2021-03-29 03:38:03,047 INFO content classification analyzing initiated
+2021-03-29 03:38:03,047 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:38:03,170 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:38:03,172 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:38:03,275 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:38:03,546 INFO content classification analyzed
+2021-03-29 03:38:03,549 INFO 127.0.0.1 - - [29/Mar/2021 03:38:03] "GET /nlp/content-classification/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously.%20People%20start%20to%20wonder%20if%20a%20quick%20brown%20fox%20is%20a%20witch. HTTP/1.1" 200 -
+2021-03-29 03:38:39,671 INFO content classification analyzing initiated
+2021-03-29 03:38:39,671 DEBUG Checking /Users/primnp/Desktop/EC500HW2-c146adade48a.json for explicit credentials as part of auth process...
+2021-03-29 03:38:39,767 DEBUG Making request: POST https://oauth2.googleapis.com/token
+2021-03-29 03:38:39,769 DEBUG Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-03-29 03:38:39,873 DEBUG https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-03-29 03:38:39,965 ERROR Exception on /nlp/content-classification/A quick brown fox jumps over a lazy dog. The lazy dog then disappear mysteriously. [GET]
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 73, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/grpc/_channel.py", line 923, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/grpc/_channel.py", line 826, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INVALID_ARGUMENT
+	details = "Invalid text content: too few tokens (words) to process."
+	debug_error_string = "{"created":"@1617003519.964503000","description":"Error received from peer ipv6:[2607:f8b0:4006:803::200a]:443","file":"src/core/lib/surface/call.cc","file_line":1068,"grpc_message":"Invalid text content: too few tokens (words) to process.","grpc_status":3}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask_restful/__init__.py", line 272, in error_router
+    return original_handler(e)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "nlpanalysis_api.py", line 60, in classify_content
+    res["Results"] = nlp.classifyContent(text)
+  File "/Users/primnp/Desktop/news-analyzer-primnp/Text NLP Analysis/nlpanalysis.py", line 83, in classifyContent
+    response = client.classify_text(request={'document': document})
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/cloud/language_v1/services/language_service/client.py", line 614, in classify_text
+    response = rpc(request, retry=retry, timeout=timeout, metadata=metadata,)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/gapic_v1/method.py", line 145, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/retry.py", line 286, in retry_wrapped_func
+    on_error=on_error,
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/retry.py", line 184, in retry_target
+    return target()
+  File "/Users/primnp/anaconda3/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 75, in error_remapped_callable
+    six.raise_from(exceptions.from_grpc_error(exc), exc)
+  File "<string>", line 3, in raise_from
+google.api_core.exceptions.InvalidArgument: 400 Invalid text content: too few tokens (words) to process.
+2021-03-29 03:38:39,966 INFO 127.0.0.1 - - [29/Mar/2021 03:38:39] "GET /nlp/content-classification/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously. HTTP/1.1" 500 -
+2021-03-29 03:39:40,476 INFO  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2021-03-29 03:39:41,653 INFO content classification analyzing initiated
+2021-03-29 03:39:41,653 INFO Not enough text
+2021-03-29 03:39:41,654 INFO 127.0.0.1 - - [29/Mar/2021 03:39:41] "GET /nlp/content-classification/A%20quick%20brown%20fox%20jumps%20over%20a%20lazy%20dog.%20The%20lazy%20dog%20then%20disappear%20mysteriously. HTTP/1.1" 200 -
