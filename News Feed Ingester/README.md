@@ -12,7 +12,7 @@ news-analyzer-primnp created by GitHub Classroom
 > Procedure-base module
 
 ## Build Instructions
-Start by installing pynytimes library
+Aside from cloning the repo, there are several steps that needs to be implemented. Start by installing pynytimes library
 ```
 pip install --upgrade pynytimes
 ```
@@ -25,7 +25,7 @@ nyt = NYTAPI("Your API key", parse_dates=True)
 
 For this API implementation, I created three main function.
 
-1. findWithKeyword(string: keyword)
+1. **findWithKeyword(string: keyword)**
   * take in string parameter
   * find articles using NYT article search API with 'keyword' as a query. Return snippet, web url, and source of articles found (these schema can be changed, refer to: https://developer.nytimes.com/docs/articlesearch-product/1/types/Article)
   * Note: I set the NYT API to return 10 results per one keyword. This is because the results variable is limited to multiple of 10
@@ -55,8 +55,8 @@ URI  | HTTP Method
 ```JSON
 {"News Feed Results":[]}
 ```
-
-2. findWithKeywordLists(string: keyword-keyword-keyword-.....)
+---
+2. **findWithKeywordLists(string: keyword-keyword-keyword-.....)**
   * take in several keywords as string parameter separated by '-'
   * find articles using NYT article search API with all the keywords as query. Return snippet, web url, and source of articles found (these schema can be changed, refer to: https://developer.nytimes.com/docs/articlesearch-product/1/types/Article)
   * Note: I set the NYT API to return 10 results per one keyword. This is because the results variable is limited to multiple of 10
@@ -80,8 +80,8 @@ URI  | HTTP Method
 ```JSON
 {"News Feed Results":[]}
 ```
-
-3. findWithDMY(year2, year1, month2, month1, day2, day1, keywords)
+---
+3. **findWithDMY(year2, year1, month2, month1, day2, day1, keywords)**
   * take in start and end day, month, year and several keywords (separate by '-') as string parameters
   * find articles using NYT article search API with parameters stated above as query. Return snippet, web url, and source of articles found (these schema can be changed, refer to: https://developer.nytimes.com/docs/articlesearch-product/1/types/Article)
   * Note: I set the NYT API to return 10 results per one keyword. This is because the results variable is limited to multiple of 10
