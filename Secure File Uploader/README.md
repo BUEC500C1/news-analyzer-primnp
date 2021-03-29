@@ -80,6 +80,8 @@ I created two separate database collection, one for uploading, and another for i
   /uploader/view-file/(name) | GET
 
   **Successful response example**
+  
+  
   <img src="/Images/read2.png" width="65%" />
 
 ---
