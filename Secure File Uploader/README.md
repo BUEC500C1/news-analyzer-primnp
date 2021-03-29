@@ -44,7 +44,8 @@ I created two separate database collection, one for uploading, and another for i
   }
   ```
 ---
- 1.2 *Read operations to read file inside files_collection collection in several ways (R)*
+1.2 *Read operations to read file inside files_collection collection in several ways (R)*
+  
   1.2.1 View all files in files_collection database
   URI  | HTTP Method
   ------------- | -------------
@@ -119,7 +120,8 @@ I created two separate database collection, one for uploading, and another for i
   ```
 ---
 **2. File Ingester (Extract PDF) | Data Collection: extracted_data**
-2.1 *Save uploaded file to database (C) and display the saved file data along with extracted text (R)*
+
+ 2.1 *Save uploaded file to database (C) and display the saved file data along with extracted text (R)*
   * Using POST method connected to form. When user hit submit button, POST is called to extract text from PDF and save data to database. Data is saved to collection: extracted_data.
   * Upon successful POST, user will be redirected to GET and the parameters returned will be json containing 5 parameters as stated in example below.
 
