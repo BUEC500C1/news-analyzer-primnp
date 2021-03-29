@@ -1,6 +1,16 @@
 # news-analyzer-primnp
 news-analyzer-primnp created by GitHub Classroom
 
+---
+## Overview
+I created 3 REST API modules. Each implementation are in the respective folder:
+
+1. Implementation of file uploader - Secure File Uploader
+2. Implementation of news ingester - News Feed Ingester
+3. Implementation of NLP - Text NLP Analysis
+
+---
+## Timeline
 ### 02/20/2021
 **Homework 2 Phase 1** are in different modules folder. Each folder consists of readme, python file, python test file.
 
@@ -93,3 +103,9 @@ NOTE: testmongo.py has not been deployed to AWS - will work on this after
 **To be completed**
 1. Set up github secrets
 2. Complete Sentiment the news feed search part
+
+---
+### 03/28/2021
+**Wrap up Homework 2**
+1. Update readme.md for better documentation
+2. Create a video, walk through how different API modules function
