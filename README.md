@@ -105,5 +105,7 @@ NOTE: testmongo.py has not been deployed to AWS - will work on this after
 ---
 ### 03/28/2021
 **Wrap up Homework 2**
+
+**will be completed on 03/29/2021**
 1. Update readme.md for better documentation
 2. Create a video, walk through how different API modules function
