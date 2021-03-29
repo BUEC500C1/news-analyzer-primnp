@@ -1,5 +1,5 @@
 from newsingester import *
-from News_Feed_Ingester import newsingester_calc as news
+import newsingester_calc as news
 
 def one_query():
     input1 = ['nyc']
