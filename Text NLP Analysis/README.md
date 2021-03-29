@@ -13,8 +13,12 @@ news-analyzer-primnp created by GitHub Classroom
 > Procedure-based module
 
 ## Build Instructions
+You will need a google cloud account. After setting up google cloud account, follow https://cloud.google.com/natural-language/docs/setup to set up Google NLP API. This includes: setting up credentials, download private-key file, and use the service account key file in your environment etc.
+```
+export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/my-key.json"
+```
 
-## API
+## API Requests & Responses
 
 ## Functions - Actions that need to be completed
 * KeywordsSearch = searchOnKeywords()
