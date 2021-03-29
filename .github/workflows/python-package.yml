@@ -28,6 +28,14 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install flake8 pytest coverage
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Set up Cloud SDK
+      uses: google-github-actions/setup-gcloud@master
+      with:
+        project_id: ${{ secrets.GCP_PROJECT_ID }}
+        service_account_key: ${{ secrets.GCP_SA_KEY }}
+        export_default_credentials: true
+    - name: Use gcloud CLI
+      run: gcloud info
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
@@ -35,8 +43,11 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
+      env:
+        MONGOKEY: ${{ secrets.MONGOKEY }}
+        NYT: ${{ secrets.NYT }}
       run: |
-        coverage run -m pytest
+        coverage run -m pytest -s --import-mode=importlib
     - name: Show coverage report
       run: |
         coverage report -m
