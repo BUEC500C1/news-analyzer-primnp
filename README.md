@@ -4,9 +4,9 @@ news-analyzer-primnp created by GitHub Classroom
 ## Overview
 I created 3 REST API modules. Each implementation are in the respective folder:
 
-1. Implementation of file uploader - [Secure File Uploader](https://github.com/BUEC500C1/news-analyzer-primnp/tree/main/Secure%20File%20Uploader)
-2. Implementation of news ingester - [News Feed Ingester](https://github.com/BUEC500C1/news-analyzer-primnp/tree/main/News%20Feed%20Ingester)
-3. Implementation of NLP - [Text NLP Analysis](https://github.com/BUEC500C1/news-analyzer-primnp/tree/main/Text%20NLP%20Analysis)
+1. Implementation of file uploader - [Secure File Uploader](https://github.com/BUEC500C1/news-analyzer-primnp/tree/main/Secure_File_Uploader)
+2. Implementation of news ingester - [News Feed Ingester](https://github.com/BUEC500C1/news-analyzer-primnp/tree/main/News_Feed_Ingester)
+3. Implementation of NLP - [Text NLP Analysis](https://github.com/BUEC500C1/news-analyzer-primnp/tree/main/Text_NLP_Analysis)
 
 Please refer to video to view demonstration of the homework.
 
