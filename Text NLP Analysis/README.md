@@ -49,7 +49,7 @@ URI  | HTTP Method
 
   URI  | HTTP Method
   ------------- | -------------
-  /nlp/retrieve-entity/<text> | GET
+  /nlp/retrieve-entity/(text) | GET
 
 #### Successful operation response example
 ```JSON
