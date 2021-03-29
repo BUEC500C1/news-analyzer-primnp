@@ -19,7 +19,7 @@ def index():
 def nlp_home():
     return '''
         <h1>Text NLP Analysis</h1>
-        <p>Please review documentation for testing</p>
+        <p>Please refer to readme.md on how to utilize this API</p>
     '''
 
 # retrieve sentiment of the text

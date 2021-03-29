@@ -121,4 +121,4 @@ URI  | HTTP Method
 **Logging** was included in the API with the following format:
 > '[%(levelname)s] %(asctime)s %(message)s'
 
-This was included to help user see the response from the API with timestamp. levelname can include info, debug, error etc.
+This was included to help user see the response from the API with timestamp. levelname can include info, debug, error etc. Use this logging data to debug. When running API, nlp.log file will be generated within the same directory.

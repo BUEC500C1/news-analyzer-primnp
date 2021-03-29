@@ -1,0 +1,40 @@
+[INFO] 2021-03-29 06:49:56,650 Start query with date month time
+[DEBUG] 2021-03-29 06:49:56,659 Starting new HTTPS connection (1): api.nytimes.com:443
+[DEBUG] 2021-03-29 06:49:57,116 https://api.nytimes.com:443 "GET /svc/search/v2/articlesearch.json?api-key=okASGkwFfTpkGbKGtAObWHJSx4AUwRQB&sort=oldest&q=apple&begin_date=20210315&end_date=20210325&page=0 HTTP/1.1" 200 160086
+[DEBUG] 2021-03-29 06:49:57,543 https://api.nytimes.com:443 "GET /svc/search/v2/articlesearch.json?api-key=okASGkwFfTpkGbKGtAObWHJSx4AUwRQB&sort=oldest&q=grape&begin_date=20210315&end_date=20210325&page=0 HTTP/1.1" 200 217518
+[INFO] 2021-03-29 06:49:58,037 127.0.0.1 - - [29/Mar/2021 06:49:58] "GET /newsfeedig/dmyquery/year1=2021&month1=3&day1=15&year2=2021&month2=3&day2=25&keywords=apple-grape HTTP/1.1" 200 -
+[INFO] 2021-03-29 06:50:17,288 Start query with date month time
+[INFO] 2021-03-29 06:50:17,289 127.0.0.1 - - [29/Mar/2021 06:50:17] "GET /newsfeedig/dmyquery/year1=2022&month1=3&day1=15&year2=2021&month2=3&day2=25&keywords=apple-grape HTTP/1.1" 200 -
+[INFO] 2021-03-29 06:50:36,532 Start query with a keyword
+[DEBUG] 2021-03-29 06:50:36,535 Starting new HTTPS connection (1): api.nytimes.com:443
+[DEBUG] 2021-03-29 06:50:37,059 https://api.nytimes.com:443 "GET /svc/search/v2/articlesearch.json?api-key=okASGkwFfTpkGbKGtAObWHJSx4AUwRQB&q=year1%3D2022%26month1%3D3%26day1%3D15%26year2%3D2021%26month2%3D3%26day2%3D25%26keywords%3Dapple-grape&page=0 HTTP/1.1" 200 159
+[INFO] 2021-03-29 06:50:37,060 Keyword query success
+[INFO] 2021-03-29 06:50:37,060 127.0.0.1 - - [29/Mar/2021 06:50:37] "GET /newsfeedig/onequery/year1=2022&month1=3&day1=15&year2=2021&month2=3&day2=25&keywords=apple-grape HTTP/1.1" 200 -
+[INFO] 2021-03-29 06:50:50,129 Start query with keywords list
+[DEBUG] 2021-03-29 06:50:50,132 Starting new HTTPS connection (1): api.nytimes.com:443
+[DEBUG] 2021-03-29 06:50:50,679 https://api.nytimes.com:443 "GET /svc/search/v2/articlesearch.json?api-key=okASGkwFfTpkGbKGtAObWHJSx4AUwRQB&q=year1%3D2022%26month1%3D3%26day1%3D15%26year2%3D2021%26month2%3D3%26day2%3D25%26keywords%3Dapple&page=0 HTTP/1.1" 200 159
+[DEBUG] 2021-03-29 06:50:51,026 https://api.nytimes.com:443 "GET /svc/search/v2/articlesearch.json?api-key=okASGkwFfTpkGbKGtAObWHJSx4AUwRQB&q=grape&page=0 HTTP/1.1" 200 215238
+[INFO] 2021-03-29 06:50:51,146 Keywords list query success
+[INFO] 2021-03-29 06:50:51,147 127.0.0.1 - - [29/Mar/2021 06:50:51] "GET /newsfeedig/listquery/year1=2022&month1=3&day1=15&year2=2021&month2=3&day2=25&keywords=apple-grape HTTP/1.1" 200 -
+[INFO] 2021-03-29 06:51:22,096 Start query with keywords list
+[DEBUG] 2021-03-29 06:51:22,099 Starting new HTTPS connection (1): api.nytimes.com:443
+[DEBUG] 2021-03-29 06:51:22,633 https://api.nytimes.com:443 "GET /svc/search/v2/articlesearch.json?api-key=okASGkwFfTpkGbKGtAObWHJSx4AUwRQB&q=apple&page=0 HTTP/1.1" 200 165217
+[DEBUG] 2021-03-29 06:51:23,141 https://api.nytimes.com:443 "GET /svc/search/v2/articlesearch.json?api-key=okASGkwFfTpkGbKGtAObWHJSx4AUwRQB&q=grape&page=0 HTTP/1.1" 200 215238
+[INFO] 2021-03-29 06:51:23,245 Keywords list query success
+[INFO] 2021-03-29 06:51:23,246 127.0.0.1 - - [29/Mar/2021 06:51:23] "GET /newsfeedig/listquery/apple-grape HTTP/1.1" 200 -
+[INFO] 2021-03-29 07:00:26,411 Start query with a keyword
+[DEBUG] 2021-03-29 07:00:26,416 Starting new HTTPS connection (1): api.nytimes.com:443
+[DEBUG] 2021-03-29 07:00:26,993 https://api.nytimes.com:443 "GET /svc/search/v2/articlesearch.json?api-key=okASGkwFfTpkGbKGtAObWHJSx4AUwRQB&q=apple&page=0 HTTP/1.1" 200 165210
+[INFO] 2021-03-29 07:00:27,098 Keyword query success
+[INFO] 2021-03-29 07:00:27,099 127.0.0.1 - - [29/Mar/2021 07:00:27] "GET /newsfeedig/onequery/apple HTTP/1.1" 200 -
+[INFO] 2021-03-29 07:12:04,943 Start query with keywords list
+[DEBUG] 2021-03-29 07:12:04,947 Starting new HTTPS connection (1): api.nytimes.com:443
+[DEBUG] 2021-03-29 07:12:05,532 https://api.nytimes.com:443 "GET /svc/search/v2/articlesearch.json?api-key=okASGkwFfTpkGbKGtAObWHJSx4AUwRQB&q=apple&page=0 HTTP/1.1" 200 165210
+[DEBUG] 2021-03-29 07:12:06,106 https://api.nytimes.com:443 "GET /svc/search/v2/articlesearch.json?api-key=okASGkwFfTpkGbKGtAObWHJSx4AUwRQB&q=grape&page=0 HTTP/1.1" 200 215238
+[INFO] 2021-03-29 07:12:06,237 Keywords list query success
+[INFO] 2021-03-29 07:12:06,237 127.0.0.1 - - [29/Mar/2021 07:12:06] "GET /newsfeedig/listquery/apple-grape HTTP/1.1" 200 -
+[INFO] 2021-03-29 07:16:17,552 Start query with date month time
+[DEBUG] 2021-03-29 07:16:17,555 Starting new HTTPS connection (1): api.nytimes.com:443
+[DEBUG] 2021-03-29 07:16:18,147 https://api.nytimes.com:443 "GET /svc/search/v2/articlesearch.json?api-key=okASGkwFfTpkGbKGtAObWHJSx4AUwRQB&sort=oldest&q=apple&begin_date=20210315&end_date=20210325&page=0 HTTP/1.1" 200 160086
+[DEBUG] 2021-03-29 07:16:18,581 https://api.nytimes.com:443 "GET /svc/search/v2/articlesearch.json?api-key=okASGkwFfTpkGbKGtAObWHJSx4AUwRQB&sort=oldest&q=grape&begin_date=20210315&end_date=20210325&page=0 HTTP/1.1" 200 217518
+[INFO] 2021-03-29 07:16:18,670 127.0.0.1 - - [29/Mar/2021 07:16:18] "GET /newsfeedig/dmyquery/year1=2021&month1=3&day1=15&year2=2021&month2=3&day2=25&keywords=apple-grape HTTP/1.1" 200 -
