@@ -15,7 +15,6 @@ api = Api(app)
 
 app.config["MONGO_URI"] = "mongodb+srv://dbUser:1PASSword1@flask-mongodb-atlas.e8vt3.mongodb.net/file-collection-ingester?retryWrites=true&w=majority"
 mongo = PyMongo(app)
-UPLOAD_FOLDER = './files'
 
 logging.basicConfig(filename='app.log', level=logging.INFO)
 
@@ -207,7 +206,7 @@ def extract_file():
 
             file_obj.close()
             data = {'Name': request.values.get('name'), 'TextExtracted': tdata, 'OriginalPDF': new_file.filename}
-
+            logging.info('Extracted Successfully')
             nameurl = request.values.get('name')
             db_extracted.insert_one(data)
         else:

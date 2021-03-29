@@ -929,3 +929,11 @@ INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 203-970-524
 INFO:werkzeug:127.0.0.1 - - [28/Mar/2021 21:25:58] "GET /retrieve-info/txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 203-970-524
+INFO:werkzeug: * Detected change in '/Users/primnp/Desktop/news-analyzer-primnp/testmongo.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 203-970-524
