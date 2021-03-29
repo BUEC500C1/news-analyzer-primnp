@@ -12,6 +12,10 @@ news-analyzer-primnp created by GitHub Classroom
 
 > Procedure-based module
 
+## Build Instructions
+
+## API
+
 ## Functions - Actions that need to be completed
 * KeywordsSearch = searchOnKeywords()
 * BooleanSearch = searchBoolean()
