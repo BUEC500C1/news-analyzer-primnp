@@ -1,6 +1,6 @@
 pytest >= 6.2.2
 coverage >= 5.4
-flask-restful>0.308
+flask-restful
 flask >=.1
 Flask-PyMongo==2.3.0
 pymongo==3.11.0
