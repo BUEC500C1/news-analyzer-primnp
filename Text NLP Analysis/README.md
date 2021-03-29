@@ -42,7 +42,7 @@ URI  | HTTP Method
 ```JSON
 {"SentimentScore":[]}
 ```
-
+---
 2. **analyze_entities(string: text)**
   * take in string parameter
   * analyze entities of the given text string
@@ -64,7 +64,7 @@ URI  | HTTP Method
 ```JSON
 {"Entities":[]}
 ```
-
+---
 3. **analyze_entities_sentiments(string: text)**
   * take in string parameter
   * analyze (entities, sentiments) value pair of the given text string
@@ -88,7 +88,7 @@ URI  | HTTP Method
 ```JSON
 {"Results":[]}
 ```
-
+---
 4. **classify_content(string: text)**
   * take in string parameter
   * classify the given text into possible categories
