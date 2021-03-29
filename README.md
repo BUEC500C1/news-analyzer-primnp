@@ -21,8 +21,10 @@ Please refer to video to view demonstration of the homework.
 | News Feed Ingester      | 8008 |
 | Text NLP Analysis |  8080 |
 
-* To view first HTML page for each module:
-    * 3.140.234.103:Port of the module/
+* To view first EC2 instace for each module:
+    * 3.140.234.103:80/ --> FOR SECURE FILE UPLOADER
+    * 3.140.234.103:8008/newsfeedig --> FOR NEWS FEED INGESTER
+    * 3.140.234.103:8080/nlp --> FOR TEXT NLP ANALYSIS
 
 ## Past Timeline
 ### 02/20/2021
