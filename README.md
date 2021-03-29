@@ -1,7 +1,6 @@
 # news-analyzer-primnp
 news-analyzer-primnp created by GitHub Classroom
 
----
 ## Overview
 I created 3 REST API modules. Each implementation are in the respective folder:
 
@@ -9,7 +8,6 @@ I created 3 REST API modules. Each implementation are in the respective folder:
 2. Implementation of news ingester - News Feed Ingester
 3. Implementation of NLP - Text NLP Analysis
 
----
 ## Timeline
 ### 02/20/2021
 **Homework 2 Phase 1** are in different modules folder. Each folder consists of readme, python file, python test file.
