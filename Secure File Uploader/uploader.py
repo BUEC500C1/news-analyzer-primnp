@@ -16,7 +16,7 @@ api = Api(app)
 app.config["MONGO_URI"] = "mongodb+srv://dbUser:1PASSword1@flask-mongodb-atlas.e8vt3.mongodb.net/file-collection-ingester?retryWrites=true&w=majority"
 mongo = PyMongo(app)
 
-logging.basicConfig(filename='uploader.log', level=logging.INFO, format='[]%(levelname)s] %(asctime)s %(message)s')
+logging.basicConfig(filename='uploader.log', level=logging.INFO, format='[%(levelname)s] %(asctime)s %(message)s')
 
 db_file = mongo.db.files_collection
 db_extracted = mongo.db.extracted_data

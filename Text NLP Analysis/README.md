@@ -17,77 +17,108 @@ You will need a google cloud account. After setting up google cloud account, fol
 ```
 export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/my-key.json"
 ```
+We will use key file to make request such as POST https://oauth2.googleapis.com/token
 
 ## API Requests & Responses
 
-## Functions - Actions that need to be completed
-* KeywordsSearch = searchOnKeywords()
-* BooleanSearch = searchBoolean()
-* RepeatedWords = searchRepeatedWords()
-* CommonKeywords = searchCommonKeywords()
-* LinkDocuments = linkDocViaKeywords()
-* GetDocuments(LinkDocuments)
-* SearchRecommendations = linkPreviousSearch()
-* GetSearchHistory()
-* TextTranslated = translateText()
-* ContentSentiment = findContentSentiment()
-* KeywordsSentiment = linkKeywordsandSentiment()
-* GetFilesfromWeb(KeywordsSearch)
-* BiasInfo = findBiasOnKeywords()
-* DataClassifications = ClassifyDatas()
-* UpdateBias(text)
-* UpdateLanguage(text)
-* RemoveBias = RemoveBiasData(BiasInfo, text)
+1. analyze_sentiment(string: text)
+  * take in string parameter
+  * analyze sentiment of the given text string
+
+URI  | HTTP Method
+------------- | -------------
+/nlp/retrieve-sentiment/<text>  | GET
+
+#### Successful operation response example
+```JSON
+[
+  {
+    "SentimentScore":-0.7800000023841847,
+    "TextInput":"A quick brown fox jumps over a lazy dog. The lazy dog then disappear mysteriously."
+  }
+]
+```
+#### Failed operation response - empty string
+```JSON
+{"SentimentScore":[]}
+```
+
+2. analyze_entities(string: text)
+  * take in string parameter
+  * analyze entities of the given text string
+
+  URI  | HTTP Method
+  ------------- | -------------
+  /nlp/retrieve-entity/<text> | GET
+
+#### Successful operation response example
+```JSON
+[
+  {
+    "Entities":["dog","brown fox"],
+    "TextInput":"A quick brown fox jumps over a lazy dog. The lazy dog then disappear mysteriously."
+  }
+]
+```
+#### Failed operation response - empty string
+```JSON
+{"Entities":[]}
+```
+
+3. analyze_entities_sentiments(string: text)
+  * take in string parameter
+  * analyze (entities, sentiments) value pair of the given text string
+
+URI  | HTTP Method
+------------- | -------------
+/nlp/retrieve-entity-sentiment/<text>  | GET
+
+#### Successful operation response example
+```JSON
+{
+  "Results":
+  [{
+      "Entity":"dog","Score":-0.05000000074505806
+    },
+    {
+      "Entity":"brown fox","Score":0.0
+    }
+  ]
+}
+
+```
+#### Failed operation response - empty string
+```JSON
+{"Results":[]}
+```
+
+4. classify_content(string: text)
+  * take in string parameter
+  * classify the given text into possible categories
+
+URI  | HTTP Method
+------------- | -------------
+/nlp/content-classification/<text> | GET
+
+#### Successful operation response example
+```JSON
+{
+  "Results":[{
+      "Category":"/Arts & Entertainment","Score":0.6100000143051147 },{
+      "Category":"/Pets & Animals","Score":0.5799999833106995},{
+      "Category":"/Hobbies & Leisure","Score":0.5
+    }
+  ]
+}
+```
+#### Failed operation response - empty string
+```JSON
+{"Results":[]}
+```
 
 
-## Example data
-* File
-  * File URL
-  * MetaData
-    * Author
-    * Timestamps
-    * File source
-    * Original Tags
-    * File type
-  * Text_Fields
-    * Text ID
-    * Text
-    * Sentiment
-    * Keywords
-      * Bias
-      * Language
-    * Bias
-  * File_content
-    * File Name
-    * User ID
-    * Created Time
-    * Permissions
-    * Time modified
-    * File Tags
-    * File Type
-    * Notes
+## Log data
+**Logging** was included in the API with the following format:
+> '[%(levelname)s] %(asctime)s %(message)s'
 
-
-## Operations
-* Create
-  * Create bias, determine link between keywords, create translated text e.g.:
-    * findBiasOnKeywords()
-    * linkDocViaKeywords()
-    * SearchRecommendations()
-    * translateText()
-    * findKeywordsSentiment()
-    * searchOnKeywords()
-    ...
-* Delete
-  * Delete(File.Text_Fields, Bias)
-* Read
-  * File.Text_Fields, Sentiment
-  * File.Text_Fields, Text
-  * File.Text_Fields, Keywords
-  * File.Text_Fields, Bias
-  * File.Text_Fields, Language
-  * searchBoolean()
-* Update
-  * File.Text_Fields, Keywords, Bias
-  * File.Text_Fields, Bias
-  * File.File_content, Language
+This was included to help user see the response from the API with timestamp. levelname can include info, debug, error etc.

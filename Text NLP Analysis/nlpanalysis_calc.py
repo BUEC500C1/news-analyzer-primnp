@@ -6,7 +6,7 @@ import os
 
 client = language_v1.LanguageServiceClient()
 
-logging.basicConfig(filename='nlp.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s')
+logging.basicConfig(filename='nlp.log', level=logging.DEBUG, format='[%(levelname)s] %(asctime)s %(message)s')
 
 def returnSentiment(text):
     logging.info('Sentiment analyzing initiated')
