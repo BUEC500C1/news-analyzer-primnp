@@ -21,13 +21,13 @@ We will use key file to make request such as POST https://oauth2.googleapis.com/
 
 ## API Requests & Responses
 
-1. analyze_sentiment(string: text)
+1. **analyze_sentiment(string: text)**
   * take in string parameter
   * analyze sentiment of the given text string
 
 URI  | HTTP Method
 ------------- | -------------
-/nlp/retrieve-sentiment/<text>  | GET
+/nlp/retrieve-sentiment/(text)  | GET
 
 #### Successful operation response example
 ```JSON
@@ -43,13 +43,13 @@ URI  | HTTP Method
 {"SentimentScore":[]}
 ```
 
-2. analyze_entities(string: text)
+2. **analyze_entities(string: text)**
   * take in string parameter
   * analyze entities of the given text string
 
   URI  | HTTP Method
   ------------- | -------------
-  /nlp/retrieve-entity/<text> | GET
+  /nlp/retrieve-entity/(text) | GET
 
 #### Successful operation response example
 ```JSON
@@ -65,24 +65,21 @@ URI  | HTTP Method
 {"Entities":[]}
 ```
 
-3. analyze_entities_sentiments(string: text)
+3. **analyze_entities_sentiments(string: text)**
   * take in string parameter
   * analyze (entities, sentiments) value pair of the given text string
 
 URI  | HTTP Method
 ------------- | -------------
-/nlp/retrieve-entity-sentiment/<text>  | GET
+/nlp/retrieve-entity-sentiment/(text)  | GET
 
 #### Successful operation response example
 ```JSON
 {
-  "Results":
-  [{
-      "Entity":"dog","Score":-0.05000000074505806
-    },
-    {
+  "Results": [{
+      "Entity":"dog","Score":-0.05000000074505806},{
       "Entity":"brown fox","Score":0.0
-    }
+      }
   ]
 }
 
@@ -92,13 +89,13 @@ URI  | HTTP Method
 {"Results":[]}
 ```
 
-4. classify_content(string: text)
+4. **classify_content(string: text)**
   * take in string parameter
   * classify the given text into possible categories
 
 URI  | HTTP Method
 ------------- | -------------
-/nlp/content-classification/<text> | GET
+/nlp/content-classification/(text) | GET
 
 #### Successful operation response example
 ```JSON
@@ -121,4 +118,5 @@ URI  | HTTP Method
 **Logging** was included in the API with the following format:
 > '[%(levelname)s] %(asctime)s %(message)s'
 
-This was included to help user see the response from the API with timestamp. levelname can include info, debug, error etc. Use this logging data to debug. When running API, nlp.log file will be generated within the same directory.
+This was included to help user see the response from the API with timestamp. levelname can include info, debug, error etc.
+When running API, nlp.log file will be generated within the same directory.
