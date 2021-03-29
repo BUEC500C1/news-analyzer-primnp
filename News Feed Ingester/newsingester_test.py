@@ -1,22 +1,28 @@
 from newsingester import *
 
-def test_create():
-    assert ingestFile() == "test create file"
-    assert searchOnKeywords() == "list of files with keywords"
-    assert searchOnSentiment() == "list of files with sentiment"
-    assert findContentSentiment() == "sentiment"
-    assert linkKeywordsandSentiment() == "relationship between keywords & sentiment in numbers"
-    assert linkSearchResultandUploadedContent() == "database files that matched uploaded files"
-    assert searchCommonKeywords() == "the most common keyword(s)"
+def one_query():
+    input1 = ['nyc']
+    res1 = ni.keyword_query(input1)
+    assert type(Result) == list
+    assert type(Result[0]) == dict
 
-def test_read():
+    validquery2 = ["hats", "bananas", "apples"]
+    Result = ni.keyword_query(validquery2)
+    assert type(Result) == list
+    assert type(Result[0]) == dict
+
+    #Invalid Test
+    invalidquery1 = 1
+    Result = ni.keyword_query(invalidquery1)
+    assert Result == []
+    invalidquery2 = []
+    Result = ni.keyword_query(invalidquery2)
+    assert Result == []
+    
+def lists_query():
     assert GetKeywordsSentimentData() == "(keywords, sentiment) data stat"
     assert GetFileSource() == "file source"
     assert GetSearchData() == "files with the stated keywords/sentiment"
 
-def test_update():
+def dmy_query():
     assert UpdateFile() == "updated file"
-
-def test_delete():
-    assert RemoveCommonKeywords() == "keywords deleted"
-    assert RemoveContentSentiment() == "sentiment deleted"
