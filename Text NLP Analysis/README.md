@@ -8,7 +8,7 @@ news-analyzer-primnp created by GitHub Classroom
 * As a user, I want to know category of the text
 * As a user, I want to obtain keywords from text
 * As a user, I want to input keywords/text to get sentiment
-* As a user, I want to know (entities,sentiments) key pair
+* As a user, I want to know possible (entities,sentiments) key value pair
 
 > Procedure-based module
 
