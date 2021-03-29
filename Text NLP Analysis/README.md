@@ -122,3 +122,4 @@ URI  | HTTP Method
 > '[%(levelname)s] %(asctime)s %(message)s'
 
 This was included to help user see the response from the API with timestamp. levelname can include info, debug, error etc.
+When running API, nlp.log file will be generated within the same directory.
