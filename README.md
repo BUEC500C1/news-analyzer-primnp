@@ -12,7 +12,7 @@ Please refer to video to view demonstration of the homework.
 
 **NOTE: My Amazon EC2 instance has been running for a while. Please let me know if the ip address of REST API is not accessible.**
 
-**Public IPv4 Address: 18.219.228.145**
+**Public IPv4 Address: 3.140.234.103**
 
 *Table 1 Modules and port hosted*
 | Module        | Port |
@@ -22,7 +22,7 @@ Please refer to video to view demonstration of the homework.
 | Text NLP Analysis |  8080 |
 
 * To view first HTML page for each module:
-    * 18.219.228.145:Port of the module/
+    * http://3.140.234.103:Port of the module/
 
 ## Past Timeline
 ### 02/20/2021
