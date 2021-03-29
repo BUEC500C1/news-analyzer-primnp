@@ -22,7 +22,7 @@ Please refer to video to view demonstration of the homework.
 | Text NLP Analysis |  8080 |
 
 * To view first HTML page for each module:
-    * http://3.140.234.103:Port of the module/
+    * 3.140.234.103:Port of the module/
 
 ## Past Timeline
 ### 02/20/2021
