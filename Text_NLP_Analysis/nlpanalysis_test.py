@@ -1,4 +1,4 @@
-import .nlpanalysis_calc as nlp
+from .Text_NLP_Analysis import .nlpanalysis_calc as nlp
 
 def test_sentiment():
     input1 = "a quick brown fox"
