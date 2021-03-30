@@ -3,11 +3,11 @@ import newsingester_calc as news
 def test_onequery():
     input1 = ['nyc']
     res1 = news.findWithKeyword(input1)
-    assert type(res[0]) == dict
+    assert type(res1[0]) == dict
 
     input2 = ['apple']
     res2 = news.findWithKeyword(input2)
-    assert type(res[0]) == dict
+    assert type(res2[0]) == dict
     
     input3 = 0
     res3 = news.findWithKeyword(input3)
