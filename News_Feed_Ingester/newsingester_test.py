@@ -1,7 +1,7 @@
 from newsingester import *
 import newsingester_calc as news
 
-def one_query():
+def test_onequery():
     input1 = ['nyc']
     res1 = news.findWithKeyword(input1)
     assert type(res[0]) == dict
@@ -14,7 +14,7 @@ def one_query():
     res3 = news.findWithKeyword(input3)
     assert res3 == []
 
-def lists_query():
+def test_listsquery():
     input1 = ['nyc', 'apple', 'times']
     res1 = news.findWithKeywordLists(input1)
     assert type(res1) == dict
@@ -27,7 +27,7 @@ def lists_query():
     res3 = news.findWithKeywordLists(input3)
     assert res3 == []
 
-def dmy_query():
+def test_dmyquery():
     test1 = news.dmy_query('2021', '2021', '03', '03', '25', '15', ['grape', 'apple'])
     assert type(test1) == list
     assert type(test1[0]) == dict
