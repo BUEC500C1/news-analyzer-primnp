@@ -1,6 +1,7 @@
 from nlpanalysis import *
+import nlpanalysis_calc as nlp
 
-def test_create():
+def test_sentiment():
     assert searchOnKeywords() == "list of files with keywords"
     assert searchRepeatedWords() == "list of repeated words & their frequency"
     assert searchCommonKeywords() == "the most common keyword(s)"
