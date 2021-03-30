@@ -47,7 +47,7 @@ jobs:
         MONGOKEY: ${{ secrets.MONGOKEY }}
         NYT: ${{ secrets.NYT }}
       run: |
-        coverage run -m pytest -s --import-mode=importlib
+        coverage run -m pytest -s uploader_test.py newsingester_test.py nlpanalysis_test.py
     - name: Show coverage report
       run: |
         coverage report -m
