@@ -24,7 +24,7 @@ Please refer to video below to view demonstration of the homework. Click to view
 | News Feed Ingester      | 8008 |
 | Text NLP Analysis |  8080 |
 
-* To view first EC2 instace for each module:
+* To view first EC2 instance for each module:
     * 3.140.234.103:80/ --> FOR SECURE FILE UPLOADER
     * 3.140.234.103:8008/newsfeedig --> FOR NEWS FEED INGESTER
     * 3.140.234.103:8080/nlp --> FOR TEXT NLP ANALYSIS
