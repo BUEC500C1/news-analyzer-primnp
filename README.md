@@ -28,6 +28,8 @@ Please refer to video to view demonstration of the homework.
     * 3.140.234.103:8008/newsfeedig --> FOR NEWS FEED INGESTER
     * 3.140.234.103:8080/nlp --> FOR TEXT NLP ANALYSIS
 
+* Multiprocessing has not been implemented due to time constraints.
+
 ## Past Timeline
 ### 02/20/2021
 **Homework 2 Phase 1** are in different modules folder. Each folder consists of readme, python file, python test file.
