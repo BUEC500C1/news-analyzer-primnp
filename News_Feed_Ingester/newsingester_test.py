@@ -1,4 +1,4 @@
-import .newsingester_calc as news
+from .News_Feed_Ingester import newsingester_calc as news
 
 def test_onequery():
     input1 = ['nyc']
