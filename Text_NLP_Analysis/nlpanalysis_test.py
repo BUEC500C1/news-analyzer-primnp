@@ -1,4 +1,3 @@
-from nlpanalysis import *
 import nlpanalysis_calc as nlp
 
 def test_sentiment():
