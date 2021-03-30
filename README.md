@@ -9,7 +9,7 @@ I created 3 REST API modules. Each implementation are in the respective folder:
 3. Implementation of NLP - [Text NLP Analysis](https://github.com/BUEC500C1/news-analyzer-primnp/tree/main/Text_NLP_Analysis)
 
 Please refer to video to view demonstration of the homework.
-
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/XtwgpkT5K3A/0.jpg)](http://www.youtube.com/watch?v=XtwgpkT5K3A "EC500 HW2")
 
 
 **NOTE: My Amazon EC2 instance has been running for a while. Please let me know if the ip address of REST API is not accessible.**
