@@ -8,7 +8,8 @@ I created 3 REST API modules. Each implementation are in the respective folder:
 2. Implementation of news ingester - [News Feed Ingester](https://github.com/BUEC500C1/news-analyzer-primnp/tree/main/News_Feed_Ingester)
 3. Implementation of NLP - [Text NLP Analysis](https://github.com/BUEC500C1/news-analyzer-primnp/tree/main/Text_NLP_Analysis)
 
-Please refer to video to view demonstration of the homework.
+Please refer to video below to view demonstration of the homework. Click to view video.
+
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/XtwgpkT5K3A/0.jpg)](http://www.youtube.com/watch?v=XtwgpkT5K3A "EC500 HW2")
 
 
