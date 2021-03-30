@@ -1,4 +1,4 @@
-from uploader import *
+from .uploader import *
 
 def test_uploader():
   result = {'result' : 'Deleted successfully'}
