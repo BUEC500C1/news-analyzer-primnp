@@ -5,12 +5,12 @@ def test_uploader():
   
   assert allowed_file('test.pdf') == True
   assert allowed_file('test.jpg') == False
-  assert type(retrieve_filejson('test')) == NoneType
+  assert type(retrieve_filejson('test')) != list
   assert delete_many('files') == result
   assert delete_all() == result
   assert delete_extractedmany('random') == result
   assert delete_alltext() == result
-  assert type(viewalltext()) == NoneType
+  assert type(viewalltext()) != list
   
   
   
