@@ -45,5 +45,5 @@ def test_conclass():
     
     input2 = "A quick brown fox jumps over a lazy dog."
     res2 = nlp.classifyContent(input2)
-    assert res2 == None
+    assert res2 == []
     
