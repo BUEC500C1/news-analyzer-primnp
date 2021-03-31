@@ -9,7 +9,7 @@ def test_uploader():
   assert delete_all() == result
   assert delete_extractedmany('random') == result
   assert delete_alltext() == result
-  assert type(viewalltext()) != list
+  assert type(view_alltext()) != list
   
   
   
