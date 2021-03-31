@@ -28,4 +28,4 @@ def test_dmyquery():
     assert type(test1[0]) == dict
     
     test2 = news.findWithDMY('2021', '2021', '03', '03', '15', '25', ['grape', 'apple'])
-    assert test2 == []
+    assert test2 == None
