@@ -16,7 +16,7 @@ def test_onequery():
 def test_listsquery():
     input1 = ['nyc', 'apple', 'times']
     res1 = news.findWithKeywordLists(input1)
-    assert type(res1) == dict
+    assert type(res1[0]) == dict
 
     input2 = 0
     res2 = news.findWithKeywordLists(input2)
