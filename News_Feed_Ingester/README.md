@@ -20,6 +20,7 @@ Then follow https://pypi.org/project/pynytimes/. You also need to create NYTimes
 ```Python
 nyt = NYTAPI("Your API key", parse_dates=True)
 ```
+NOTE: conftest.py and newsingester_test.py are for github workflows testing, you do not need these two files to run the API on local machine
 
 ## API Requests & Responses
 
