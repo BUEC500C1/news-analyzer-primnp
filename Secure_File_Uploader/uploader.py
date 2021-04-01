@@ -14,7 +14,7 @@ app = Flask(__name__)
 api = Api(app)
 
 key = os.getenv('MONGOKEY')
-app.config["MONGO_URI"] = str(key)
+app.config['MONGO_URI'] = str(key)
 mongo = PyMongo(app)
 
 logging.basicConfig(filename='uploader.log', level=logging.INFO, format='[%(levelname)s] %(asctime)s %(message)s')
