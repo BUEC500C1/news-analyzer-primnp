@@ -18,6 +18,8 @@ You will need a google cloud account. After setting up google cloud account, fol
 export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/my-key.json"
 ```
 We will use key file to make request such as POST https://oauth2.googleapis.com/token
+
+
 NOTE: conftest.py and nlpanalysis_test.py are for github workflows testing, you do not need these two files to run the API on local machine
 
 ## API Requests & Responses
