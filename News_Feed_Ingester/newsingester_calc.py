@@ -8,7 +8,8 @@ import logging
 logging.basicConfig(filename='newsfeed.log', level=logging.DEBUG, format='[%(levelname)s] %(asctime)s %(message)s')
 
 def nyt_api():
-    nyt = NYTAPI("okASGkwFfTpkGbKGtAObWHJSx4AUwRQB", parse_dates=True)
+    nytkey = os.getenv("NYT")
+    nyt = NYTAPI(str(nytkey), parse_dates=True)
     return nyt
 
 # query with only one keyword (string input)
