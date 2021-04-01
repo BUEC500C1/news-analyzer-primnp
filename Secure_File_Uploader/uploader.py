@@ -13,7 +13,8 @@ ALLOWED_EXTENSIONS = {'pdf'}
 app = Flask(__name__)
 api = Api(app)
 
-app.config["MONGO_URI"] = "mongodb+srv://dbUser:1PASSword1@flask-mongodb-atlas.e8vt3.mongodb.net/file-collection-ingester?retryWrites=true&w=majority"
+key = os.getenv('MONGOKEY')
+app.config["MONGO_URI"] = str(key)
 mongo = PyMongo(app)
 
 logging.basicConfig(filename='uploader.log', level=logging.INFO, format='[%(levelname)s] %(asctime)s %(message)s')
