@@ -13,6 +13,13 @@ Please refer to video below to view demonstration of the homework. Click to view
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/XtwgpkT5K3A/0.jpg)](http://www.youtube.com/watch?v=XtwgpkT5K3A "EC500 HW2")
 
 
+Please refer to video below to view all API functionalities. Click to view video.
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/eQoXtWo6sDg/0.jpg)](http://www.youtube.com/watch?v=eQoXtWo6sDg "EC500 HW2 All API Functionalities")
+
+
+
+
 **NOTE: My Amazon EC2 instance has been running for a while. Please let me know if the ip address of REST API is not accessible.**
 
 **Public IPv4 Address: 3.140.234.103**
